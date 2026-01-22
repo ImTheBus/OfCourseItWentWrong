@@ -2,7 +2,7 @@
 title: Experience Narrows Possibility
 slug: experience-narrows-possibility
 category: Team dynamics
-order: 210
+order: 2
 status: draft
 date: 2026-01-22
 summary: Past success quietly narrows what feels possible, turning experience into a constraint just when change is needed.
@@ -10,8 +10,6 @@ published: true
 ---
 
 # The Experience Trap
-
-### Opening vignette
 
 A team is asked to redesign how work flows through the business. They appoint someone who has been there for years. They know the systems, the people, and the history. The outcome is sensible and competent. The process looks almost the same, just slightly faster and slightly tidier.
 
