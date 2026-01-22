@@ -1,7 +1,7 @@
 title: Of Course It Went Wrong
 description: Quiet, predictable forces that shape how people behave at work, at home, and in groups.
-url: ""  # set in GitHub Pages
-baseurl: ""  # set if publishing to https://username.github.io/repo
+url: "https://imthebus.github.io"
+baseurl: "/OfCourseItWentWrong"
 
 theme: minima
 
