@@ -2,7 +2,7 @@
 title: The Invisible Success Problem
 slug: invisible-success-problem
 category: Measurement and perception
-order: 1
+order: 10
 status: draft
 date: 2026-01-22
 summary: When success becomes invisible and only failures generate attention, teams misread the situation and overreact.
