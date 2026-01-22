@@ -1,0 +1,33 @@
+title: Of Course It Went Wrong
+description: Quiet, predictable forces that shape how people behave at work, at home, and in groups.
+url: ""  # set in GitHub Pages
+baseurl: ""  # set if publishing to https://username.github.io/repo
+
+theme: minima
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Collections: chapters as "book feel"
+collections:
+  chapters:
+    output: true
+    permalink: /chapters/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: chapter
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Exclude local files
+exclude:
+  - README.md
+  - .gitignore

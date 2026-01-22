@@ -1,0 +1,18 @@
+---
+layout: default
+title: All chapters
+permalink: /chapters/
+---
+
+## All chapters
+
+{% assign all = site.chapters | sort: "order" %}
+<ul>
+{% for c in all %}
+  <li>
+    <a href="{{ c.url | relative_url }}">{{ c.order | default: "?" }}. {{ c.title }}</a>
+    {% if c.category %} ({{ c.category }}){% endif %}
+    {% if c.status %} · <em>{{ c.status }}</em>{% endif %}
+  </li>
+{% endfor %}
+</ul>
