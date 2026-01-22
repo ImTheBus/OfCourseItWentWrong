@@ -1,4 +1,3 @@
-000-chapter-template.md
 ---
 title: Chapter Title
 slug: chapter-title
