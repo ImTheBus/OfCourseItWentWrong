@@ -6,7 +6,7 @@ order: 210
 status: draft
 date: 2026-01-22
 summary: Past success quietly narrows what feels possible, turning experience into a constraint just when change is needed.
-published: false
+published: true
 ---
 
 # The Experience Trap
