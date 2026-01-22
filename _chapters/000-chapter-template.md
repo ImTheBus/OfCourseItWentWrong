@@ -6,6 +6,8 @@ order: 999
 status: draft
 date: 2026-01-22
 summary: One sentence describing the chapter.
+published: false
+
 ---
 
 ### Vignette
