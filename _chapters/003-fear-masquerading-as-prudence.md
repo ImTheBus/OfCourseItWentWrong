@@ -6,7 +6,7 @@ order: 30
 status: draft
 date: 2026-01-22
 summary: When fear of being wrong is reframed as caution, decisions stall until events force a worse outcome.
-published: false
+published: true
 ---
 
 # Fear Masquerading as Prudence
