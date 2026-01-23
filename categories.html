@@ -4,29 +4,47 @@ title: Categories
 permalink: /categories/
 ---
 
-<h2>Categories</h2>
+<h1>Categories</h1>
+
+<p style="max-width: 60rem;">
+Browse chapters by theme. If you want the intended reading order and progress statuses, use <a href="{{ '/chapters/' | relative_url }}">All chapters</a>.
+</p>
 
 {% assign cats = site.chapters | map: "category" | uniq | sort %}
-<ul>
+
+{% comment %}
+Design goals:
+- No duplicate category navigation + repeated headers
+- Category sections act as the navigation
+- No order numbers, no status labels (keep this page for browsing)
+- Show summaries for quick scanning
+{% endcomment %}
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.25rem; margin-top: 1.25rem;">
+
   {% for cat in cats %}
     {% if cat %}
-      <li><a href="#{{ cat | slugify }}">{{ cat }}</a></li>
+      {% assign items = site.chapters | where: "category", cat | sort: "title" %}
+
+      <section style="border: 1px solid #e6e6e6; border-radius: 10px; padding: 1rem 1rem 0.75rem 1rem;">
+        <h2 style="margin: 0 0 0.75rem 0;">{{ cat }}</h2>
+
+        <ul style="list-style: none; padding-left: 0; margin: 0;">
+          {% for c in items %}
+            <li style="padding: 0.6rem 0; border-top: 1px solid #f0f0f0;">
+              <div style="font-weight: 600;">
+                <a href="{{ c.url | relative_url }}">{{ c.title }}</a>
+              </div>
+              {% if c.summary %}
+                <div style="margin-top: 0.25rem; opacity: 0.85;">
+                  {{ c.summary }}
+                </div>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
     {% endif %}
   {% endfor %}
-</ul>
 
-{% for cat in cats %}
-  {% if cat %}
-    <h3 id="{{ cat | slugify }}">{{ cat }}</h3>
-    {% assign items = site.chapters | where: "category", cat | sort: "order" %}
-    <ul>
-      {% for c in items %}
-        <li>
-          <a href="{{ c.url | relative_url }}">{{ c.order | default: "?" }}. {{ c.title }}</a>
-          {% if c.status %} · <em>{{ c.status }}</em>{% endif %}
-          {% if c.summary %}<div style="margin:0.15rem 0 0.6rem 0;">{{ c.summary }}</div>{% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-{% endfor %}
+</div>
