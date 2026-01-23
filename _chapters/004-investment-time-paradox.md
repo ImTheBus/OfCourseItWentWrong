@@ -2,11 +2,11 @@
 title: The Investment Time Paradox
 slug: investment-time-paradox
 category: Capacity and structure
-order: 999
+order: 40
 status: draft
 date: 2026-01-23
 summary: When a system is under strain, it rejects the very investments that would relieve that strain.
-published: false
+published: true
 ---
 
 ### Vignette
