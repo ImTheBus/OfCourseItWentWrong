@@ -1,0 +1,13 @@
+---
+title: Silence Is Still a Decision
+slug: silence-is-still-a-decision
+category: Individual behaviour
+order: 04
+status: coming-soon
+date: 2026-01-22
+summary: Choosing not to speak is still a choice, with real consequences.
+published: false
+---
+
+# Silence Is Still a Decision
+*Choosing not to speak is still a choice, with real consequences.*
