@@ -6,7 +6,8 @@ permalink: /chapters/
 
 <h2>All chapters</h2>
 {% assign all = site.chapters | sort: "slug" %}
-{% assign all = all | sort: "order" %}
+{% assign all = site.chapters | sort: "path" %}
+
 
 <ul>
   {% for c in all %}
