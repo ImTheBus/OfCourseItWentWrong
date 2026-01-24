@@ -6,7 +6,7 @@ order: 02
 status: coming-soon
 date: 2026-01-22
 summary: Past success often limits imagination more than failure ever does.
-published: false
+published: true
 ---
 
 # Experience Narrows Possibility
