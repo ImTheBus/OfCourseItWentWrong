@@ -6,7 +6,7 @@ order: 03
 status: coming-soon
 date: 2026-01-22
 summary: Anxiety frequently disguises itself as responsibility and caution.
-published: false
+published: true
 ---
 
 # Fear Masquerading as Prudence
