@@ -6,7 +6,7 @@ order: 04
 status: coming-soon
 date: 2026-01-22
 summary: Choosing not to speak is still a choice, with real consequences.
-published: false
+published: true
 ---
 
 # Silence Is Still a Decision
