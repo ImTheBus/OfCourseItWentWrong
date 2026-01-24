@@ -6,7 +6,7 @@ order: 07
 status: coming-soon
 date: 2026-01-22
 summary: Stress shortens thinking and sharpens selfish instincts.
-published: false
+published: true
 ---
 
 # Fear Accelerates Bad Behaviour
