@@ -6,7 +6,7 @@ order: 06
 status: coming-soon
 date: 2026-01-22
 summary: Capability remains invisible until pressure forces it into view.
-published: false
+published: true
 ---
 
 # Competence Hides Until Tested
