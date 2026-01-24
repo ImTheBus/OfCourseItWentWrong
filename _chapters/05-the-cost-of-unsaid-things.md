@@ -6,7 +6,7 @@ order: 05
 status: coming-soon
 date: 2026-01-22
 summary: What goes unspoken often causes the most damage later.
-published: false
+published: true
 ---
 
 # The Cost of Unsaid Things
