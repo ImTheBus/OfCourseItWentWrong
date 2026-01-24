@@ -2,7 +2,7 @@
 title: Experience Narrows Possibility
 slug: experience-narrows-possibility
 category: Team dynamics
-order: 20
+order: 102
 status: draft
 date: 2026-01-22
 summary: Past success quietly narrows what feels possible, turning experience into a constraint just when change is needed.

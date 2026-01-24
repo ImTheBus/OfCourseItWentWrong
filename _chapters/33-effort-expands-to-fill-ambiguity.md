@@ -2,11 +2,11 @@
 title: Effort Expands to Fill Ambiguity
 slug: effort-expands-to-fill-ambiguity
 category: Incentives, metrics, and consequences
-order: 33
+order: 404
 status: coming-soon
 date: 2026-01-22
 summary: Unclear goals invite wasted energy.
-published: false
+published: true
 ---
 
 # Effort Expands to Fill Ambiguity

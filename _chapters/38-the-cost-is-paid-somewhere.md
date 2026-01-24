@@ -2,11 +2,11 @@
 title: The Cost Is Paid Somewhere
 slug: the-cost-is-paid-somewhere
 category: Incentives, metrics, and consequences
-order: 38
+order: 409
 status: coming-soon
 date: 2026-01-22
 summary: Every gain creates a hidden expense.
-published: false
+published: true
 ---
 
 # The Cost Is Paid Somewhere

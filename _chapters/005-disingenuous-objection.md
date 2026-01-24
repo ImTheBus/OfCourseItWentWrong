@@ -2,7 +2,7 @@
 title: Disingenuous Objection
 slug: disingenuous-objection
 category: Change and progress
-order: 50
+order: 201
 status: draft
 date: 2026-01-23
 summary: When people are uncomfortable with change but cannot say so, they object on many reasonable grounds and stop progress without ever naming the real concern.

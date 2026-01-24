@@ -2,7 +2,7 @@
 title: Fear Masquerading as Prudence
 slug: fear-masquerading-as-prudence
 category: Individual behaviour
-order: 30
+order: 103
 status: draft
 date: 2026-01-22
 summary: When fear of being wrong is reframed as caution, decisions stall until events force a worse outcome.

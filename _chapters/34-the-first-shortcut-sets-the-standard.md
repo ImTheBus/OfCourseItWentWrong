@@ -2,11 +2,11 @@
 title: The First Shortcut Sets the Standard
 slug: the-first-shortcut-sets-the-standard
 category: Incentives, metrics, and consequences
-order: 34
+order: 405
 status: coming-soon
 date: 2026-01-22
 summary: Early compromises become permanent norms.
-published: false
+published: true
 ---
 
 # The First Shortcut Sets the Standard

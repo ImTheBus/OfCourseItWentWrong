@@ -2,11 +2,11 @@
 title: Complexity Grows Invisibly
 slug: complexity-grows-invisibly
 category: Organisations and systems
-order: 27
+order: 308
 status: coming-soon
 date: 2026-01-22
 summary: Systems become complicated without anyone choosing it.
-published: false
+published: true
 ---
 
 # Complexity Grows Invisibly
