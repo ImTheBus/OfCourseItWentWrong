@@ -6,7 +6,7 @@ order: 01
 status: coming-soon
 date: 2026-01-22
 summary: Work expands to fill the time and space available, regardless of actual need.
-published: false
+published: true
 ---
 
 # Parkinson’s Law
