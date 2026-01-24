@@ -6,7 +6,7 @@ order: 09
 status: coming-soon
 date: 2026-01-22
 summary: Most behaviour makes sense when viewed as self-preservation.
-published: false
+published: true
 ---
 
 # People Optimise for Survival
