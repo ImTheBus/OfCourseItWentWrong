@@ -1,6 +1,7 @@
 ---
 title: The Invisible Success Problem
 slug: invisible-success-problem
+book: of-course-it-went-wrong
 category: Measurement and perception
 order: 010
 status: draft
