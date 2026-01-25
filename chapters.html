@@ -1,20 +1,58 @@
 ---
 layout: default
-title: All chapters
-permalink: /chapters/
 ---
 
-<h2>All chapters</h2>
-{% assign all = site.chapters | sort: "slug" %}
-{% assign all = site.chapters | sort: "path" %}
+{% assign status_label = nil %}
+{% if page.status == "coming-soon" %}
+  {% assign status_label = "Coming soon" %}
+{% elsif page.status == "draft" %}
+  {% assign status_label = "Draft" %}
+{% endif %}
 
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
 
-<ul>
-  {% for c in all %}
-    <li>
-      <a href="{{ c.url | relative_url }}">{{ c.order | default: "?" }}. {{ c.title }}</a>
-      {% if c.category %} ({{ c.category }}){% endif %}
-      {% if c.status %} · <em>{{ c.status }}</em>{% endif %}
-    </li>
-  {% endfor %}
-</ul>
+    {% if page.summary %}
+      <p class="post-meta" style="max-width: 60rem;">{{ page.summary }}</p>
+    {% endif %}
+
+    <p class="post-meta" style="margin-top: 0.5rem;">
+      {% if page.book %}
+        <span style="opacity: 0.85;">{{ page.book | capitalize }}</span>
+      {% endif %}
+
+      {% if page.category %}
+        {% if page.book %} · {% endif %}
+        Category:
+        <a href="{{ '/categories/' | relative_url }}#{{ page.book | default: 'wrong' }}-{{ page.category | slugify }}">
+          {{ page.category }}
+        </a>
+      {% endif %}
+
+      {% if status_label %}
+        {% if page.book or page.category %} · {% endif %}
+        <span style="display:inline-block; padding: 0.15rem 0.5rem; border: 1px solid #e6e6e6; border-radius: 999px; font-size: 0.9em;">
+          {{ status_label }}
+        </span>
+      {% endif %}
+    </p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <hr>
+
+  <nav class="post-nav" aria-label="Chapter navigation">
+    <p style="margin:0;">
+      <a href="{{ '/chapters/' | relative_url }}">All chapters</a>
+      {% if page.category %}
+        · <a href="{{ '/categories/' | relative_url }}#{{ page.book | default: 'wrong' }}-{{ page.category | slugify }}">
+          Back to {{ page.category }}
+        </a>
+      {% endif %}
+    </p>
+  </nav>
+</article>
