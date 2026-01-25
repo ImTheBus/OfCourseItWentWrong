@@ -1,6 +1,7 @@
 ---
 title: Delay Has a Bias
 slug: delay-has-a-bias
+book: of-course-it-went-wrong
 category: Individual behaviour
 order: 108
 status: coming-soon
