@@ -1,6 +1,7 @@
 ---
 title: The Investment Time Paradox
 slug: investment-time-paradox
+book: of-course-it-went-wrong
 category: Capacity and structure
 order: 040
 status: draft
