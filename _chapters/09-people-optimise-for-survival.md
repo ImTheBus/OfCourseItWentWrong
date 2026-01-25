@@ -1,6 +1,7 @@
 ---
 title: People Optimise for Survival
 slug: people-optimise-for-survival
+book: of-course-it-went-wrong
 category: Individual behaviour
 order: 109
 status: coming-soon
