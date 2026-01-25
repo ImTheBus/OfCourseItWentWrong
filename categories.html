@@ -12,14 +12,20 @@ If you want the intended reading order and progress statuses, use
 <a href="{{ '/chapters/' | relative_url }}">All chapters</a>.
 </p>
 
-{% assign books = "wrong,right" | split: "," %}
+{% assign books = "of-course-it-went-wrong,of-course-it-went-right" | split: "," %}
 
 {% for b in books %}
   {% assign chapters_in_book = site.chapters | where: "book", b %}
   {% if chapters_in_book and chapters_in_book.size > 0 %}
 
     <h2 style="margin-top: 2rem;">
-      {% if b == "wrong" %}Of Course It Went Wrong{% else %}Of Course It Went Right{% endif %}
+      {% if b == "of-course-it-went-wrong" %}
+        Of Course It Went Wrong
+      {% elsif b == "of-course-it-went-right" %}
+        Of Course It Went Right
+      {% else %}
+        {{ b | replace: "-", " " | capitalize }}
+      {% endif %}
     </h2>
 
     {% assign cats = chapters_in_book | map: "category" | uniq | sort %}
