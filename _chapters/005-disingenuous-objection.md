@@ -1,6 +1,7 @@
 ---
 title: Disingenuous Objection
 slug: disingenuous-objection
+book: of-course-it-went-wrong
 category: Change and progress
 order: 201
 status: draft
