@@ -1,6 +1,7 @@
 ---
 title: The Disingenuous Objector
 slug: the-disingenuous-objector
+book: of-course-it-went-wrong
 category: Team dynamics
 order: 010
 status: coming-soon
