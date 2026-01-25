@@ -1,6 +1,7 @@
 ---
 title: Parkinson’s Law
 slug: parkinsons-law
+book: of-course-it-went-wrong
 category: Individual behaviour
 order: 101
 status: coming-soon
