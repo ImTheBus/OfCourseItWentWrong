@@ -1,6 +1,7 @@
 ---
 title: Experience Narrows Possibility
 slug: experience-narrows-possibility
+book: of-course-it-went-wrong
 category: Team dynamics
 order: 102
 status: draft
