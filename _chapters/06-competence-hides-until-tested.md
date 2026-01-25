@@ -1,6 +1,7 @@
 ---
 title: Competence Hides Until Tested
 slug: competence-hides-until-tested
+book: of-course-it-went-wrong
 category: Individual behaviour
 order: 106
 status: coming-soon
