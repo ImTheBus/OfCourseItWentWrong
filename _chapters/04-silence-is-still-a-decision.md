@@ -1,6 +1,7 @@
 ---
 title: Silence Is Still a Decision
 slug: silence-is-still-a-decision
+book: of-course-it-went-wrong
 category: Individual behaviour
 order: 104
 status: coming-soon
