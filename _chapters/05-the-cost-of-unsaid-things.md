@@ -1,6 +1,7 @@
 ---
 title: The Cost of Unsaid Things
 slug: the-cost-of-unsaid-things
+book: of-course-it-went-wrong
 category: Individual behaviour
 order: 105
 status: coming-soon
