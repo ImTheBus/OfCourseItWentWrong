@@ -1,6 +1,7 @@
 ---
 title: Fear Accelerates Bad Behaviour
 slug: fear-accelerates-bad-behaviour
+book: of-course-it-went-wrong
 category: Individual behaviour
 order: 107
 status: coming-soon
