@@ -1,6 +1,7 @@
 ---
 title: Fear Masquerading as Prudence
 slug: fear-masquerading-as-prudence
+book: of-course-it-went-wrong
 category: Individual behaviour
 order: 103
 status: draft
