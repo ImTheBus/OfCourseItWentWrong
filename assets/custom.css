@@ -1,0 +1,99 @@
+:root {
+  --cloud-dancer: #F0EEE9;
+  --pill-border: #e6e6e6;
+
+  --draft-bg: #e9f7ee;
+  --draft-border: #bfe6cc;
+  --draft-text: #1b5e37;
+
+  --soon-bg: #fdebec;
+  --soon-border: #f6c1c6;
+  --soon-text: #8a1f2b;
+
+  --meta-text: rgba(0,0,0,0.70);
+  --summary-text: rgba(0,0,0,0.80);
+}
+
+/* Site-wide background */
+body {
+  background: var(--cloud-dancer);
+}
+
+/* Keep content readable against the tinted background */
+.wrapper {
+  background: transparent;
+}
+
+.page-content .wrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Chapters list formatting */
+.chapters-list {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.chapters-list li {
+  margin: 0.75rem 0;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid var(--pill-border);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.65);
+}
+
+.chapter-topline {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.chapter-order {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.70;
+}
+
+.chapter-title a {
+  text-decoration: none;
+}
+
+.chapter-meta {
+  margin-top: 0.25rem;
+  color: var(--meta-text);
+  font-size: 0.95em;
+}
+
+.chapter-meta .category-icon {
+  margin-right: 0.35rem;
+  opacity: 0.75;
+}
+
+.chapter-summary {
+  margin-top: 0.35rem;
+  color: var(--summary-text);
+}
+
+/* Status pills */
+.status-pill {
+  display: inline-block;
+  padding: 0.08rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--pill-border);
+  font-size: 0.85em;
+  line-height: 1.4;
+}
+
+.status-pill.draft {
+  background: var(--draft-bg);
+  border-color: var(--draft-border);
+  color: var(--draft-text);
+}
+
+.status-pill.coming-soon {
+  background: var(--soon-bg);
+  border-color: var(--soon-border);
+  color: var(--soon-text);
+}
