@@ -7,24 +7,17 @@ permalink: /chapters/
 <h1>All chapters</h1>
 
 <p style="max-width: 60rem;">
-Reading order with progress flags. Use the buttons to filter by book.
+Reading order with progress flags. Browse by series below.
 </p>
 
-{% assign book = page.book %}
-{% comment %}
-Crude querystring handling is not native in Jekyll.
-So instead: we show both sections on one page, with clear headers.
-If you want true query filtering, we can add a tiny JS snippet later.
-{% endcomment %}
+{% assign series_list = "of-course-it-went-wrong,of-course-it-went-right" | split: "," %}
 
-{% assign books = "wrong,right" | split: "," %}
-
-{% for b in books %}
-  {% assign items = site.chapters | where: "book", b | sort: "order" %}
+{% for s in series_list %}
+  {% assign items = site.chapters | where: "book", s | sort: "order" %}
   {% if items and items.size > 0 %}
 
     <h2 style="margin-top: 2rem;">
-      {% if b == "wrong" %}Of Course It Went Wrong{% else %}Of Course It Went Right{% endif %}
+      {% if s == "of-course-it-went-wrong" %}Of Course It Went Wrong{% else %}Of Course It Went Right{% endif %}
     </h2>
 
     <ul style="padding-left: 1.1rem;">
@@ -38,14 +31,17 @@ If you want true query filtering, we can add a tiny JS snippet later.
 
         <li style="margin: 0.35rem 0;">
           <a href="{{ c.url | relative_url }}">{{ c.order | default: "?" }}. {{ c.title }}</a>
+
           {% if status_label %}
             <span style="display:inline-block; margin-left: 0.4rem; padding: 0.05rem 0.45rem; border: 1px solid #e6e6e6; border-radius: 999px; font-size: 0.85em;">
               {{ status_label }}
             </span>
           {% endif %}
+
           {% if c.category %}
             <span style="opacity: 0.75;"> · {{ c.category }}</span>
           {% endif %}
+
           {% if c.summary %}
             <div style="opacity: 0.85; margin-top: 0.15rem;">{{ c.summary }}</div>
           {% endif %}
