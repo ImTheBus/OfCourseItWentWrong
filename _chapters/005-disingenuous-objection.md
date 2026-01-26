@@ -10,23 +10,6 @@ summary: When people are uncomfortable with change but cannot say so, they objec
 published: true
 ---
 
-### Vignette
-
-Between 2015 and 2023, dozens of proposed onshore wind projects in England were blocked or abandoned.
-
-Local objections were extensive and detailed. Planning records show concerns raised about landscape impact, noise, wildlife, traffic during construction, property values, and fairness to nearby residents.
-
-Each objection was individually reasonable. Many were technically valid.
-
-What was largely absent from consultations and hearings were statements like “we don’t want this area to change” or “we don’t understand what this would mean for us”.
-
-Years later, reviews of the period noted that communities which blocked projects also missed out on cheaper local energy, community investment funds, and infrastructure upgrades that similar areas elsewhere received.
-
-The objections succeeded.  
-The benefits never arrived.
-
----
-
 ### The principle
 
 **When people are uncomfortable with change but cannot safely say so, they oppose it through multiple reasonable objections that prevent progress without resolving the underlying discomfort.**
