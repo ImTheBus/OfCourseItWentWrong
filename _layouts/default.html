@@ -6,6 +6,7 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ page.summary | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/custom.css" | relative_url }}">
   </head>
   <body>
     <header class="site-header">
