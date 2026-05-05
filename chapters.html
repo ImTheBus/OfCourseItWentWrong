@@ -4,60 +4,47 @@ title: All chapters
 permalink: /chapters/
 ---
 
-<h1>All chapters</h1>
+{% assign pub = site.chapters | where: "published", true %}
+{% assign books = "of-course-it-went-wrong,of-course-it-went-right" | split: "," %}
 
-<p style="max-width: 60rem;">
-Reading order with progress flags. Browse by series below.
-</p>
+<div class="chapters-page">
+  <div class="page-header">
+    <h1>All chapters</h1>
+    <p>Reading order across both series.</p>
+  </div>
 
-{% assign series_list = "of-course-it-went-wrong,of-course-it-went-right" | split: "," %}
+  {% for s in books %}
+    {% assign items = pub | where: "book", s | sort: "order" %}
+    {% if items.size > 0 %}
 
-{% for s in series_list %}
-  {% assign items = site.chapters | where: "book", s | sort: "order" %}
-  {% if items and items.size > 0 %}
+      {% if s == "of-course-it-went-wrong" %}
+        <div class="chapters-section chapters-section--wrong">
+        <h2 class="chapters-section-heading">Of Course It Went Wrong</h2>
+      {% else %}
+        <div class="chapters-section chapters-section--right">
+        <h2 class="chapters-section-heading">Of Course It Went Right</h2>
+      {% endif %}
 
-    <h2 style="margin-top: 2rem;">
-      {% if s == "of-course-it-went-wrong" %}Of Course It Went Wrong{% else %}Of Course It Went Right{% endif %}
-    </h2>
-
-    <ul class="chapters-list">
-      {% for c in items %}
-        {% assign status_class = nil %}
-        {% assign status_label = nil %}
-
-        {% if c.status == "coming-soon" %}
-          {% assign status_class = "coming-soon" %}
-          {% assign status_label = "Coming soon" %}
-        {% elsif c.status == "draft" %}
-          {% assign status_class = "draft" %}
-          {% assign status_label = "Draft" %}
-        {% endif %}
-
-        <li>
-          <div class="chapter-topline">
-            <span class="chapter-order">{{ c.order | default: "?" }}.</span>
-
-            <span class="chapter-title">
-              <a href="{{ c.url | relative_url }}">{{ c.title }}</a>
-            </span>
-
-            {% if status_label %}
-              <span class="status-pill {{ status_class }}">{{ status_label }}</span>
-            {% endif %}
-          </div>
-
-          {% if c.category %}
-            <div class="chapter-meta">
-              <span class="category-icon">🏷</span>{{ c.category }}
+      <ul class="chapters-list">
+        {% for c in items %}
+          <li>
+            <div class="chapter-topline">
+              <span class="chapter-order">{{ c.order | default: "?" }}</span>
+              <span class="chapter-title">
+                <a href="{{ c.url | relative_url }}">{{ c.title }}</a>
+              </span>
             </div>
-          {% endif %}
+            {% if c.category %}
+              <div class="chapter-meta">{{ c.category }}</div>
+            {% endif %}
+            {% if c.summary %}
+              <div class="chapter-summary">{{ c.summary }}</div>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
 
-          {% if c.summary %}
-            <div class="chapter-summary">{{ c.summary }}</div>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-
-  {% endif %}
-{% endfor %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
