@@ -4,65 +4,49 @@ title: Categories
 permalink: /categories/
 ---
 
-<h1>Categories</h1>
-
-<p style="max-width: 60rem;">
-Browse chapters by theme. This page is grouped by book, then category.
-If you want the intended reading order and progress statuses, use
-<a href="{{ '/chapters/' | relative_url }}">All chapters</a>.
-</p>
-
+{% assign pub = site.chapters | where: "published", true %}
 {% assign books = "of-course-it-went-wrong,of-course-it-went-right" | split: "," %}
 
-{% for b in books %}
-  {% assign chapters_in_book = site.chapters | where: "book", b %}
-  {% if chapters_in_book and chapters_in_book.size > 0 %}
+<div class="categories-page">
+  <div class="page-header">
+    <h1>Categories</h1>
+    <p>Browse by theme. For the intended reading order see <a href="{{ '/chapters/' | relative_url }}">All chapters</a>.</p>
+  </div>
 
-    <h2 style="margin-top: 2rem;">
-      {% if b == "of-course-it-went-wrong" %}
-        Of Course It Went Wrong
-      {% elsif b == "of-course-it-went-right" %}
-        Of Course It Went Right
-      {% else %}
-        {{ b | replace: "-", " " | capitalize }}
-      {% endif %}
-    </h2>
+  {% for b in books %}
+    {% assign chapters_in_book = pub | where: "book", b %}
+    {% if chapters_in_book.size > 0 %}
 
-    {% assign cats = chapters_in_book | map: "category" | uniq | sort %}
-
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.25rem; margin-top: 1.25rem;">
-      {% for cat in cats %}
-        {% if cat %}
-          {% assign items = chapters_in_book | where: "category", cat | sort: "order" %}
-          {% assign cat_desc = site.data.category_meta[b][cat] %}
-
-          <section id="{{ b }}-{{ cat | slugify }}" style="border: 1px solid #e6e6e6; border-radius: 10px; padding: 1rem 1rem 0.75rem 1rem;">
-            <h3 style="margin: 0 0 0.35rem 0;">{{ cat }}</h3>
-
-            {% if cat_desc %}
-              <div style="opacity: 0.85; margin-bottom: 0.75rem;">
-                {{ cat_desc }}
-              </div>
-            {% endif %}
-
-            <ul style="list-style: none; padding-left: 0; margin: 0;">
-              {% for c in items %}
-                <li style="padding: 0.6rem 0; border-top: 1px solid #f0f0f0;">
-                  <div style="font-weight: 600;">
-                    <a href="{{ c.url | relative_url }}">{{ c.title }}</a>
-                  </div>
-                  {% if c.summary %}
-                    <div style="margin-top: 0.25rem; opacity: 0.85;">
-                      {{ c.summary }}
-                    </div>
-                  {% endif %}
-                </li>
-              {% endfor %}
-            </ul>
-          </section>
+      <div class="page-header" style="margin-top: 40px; border-bottom: none; padding-bottom: 0;">
+        {% if b == "of-course-it-went-wrong" %}
+          <h2 style="font-family: var(--font-serif); color: var(--wrong); margin: 0 0 4px;">Of Course It Went Wrong</h2>
+        {% else %}
+          <h2 style="font-family: var(--font-serif); color: var(--right); margin: 0 0 4px;">Of Course It Went Right</h2>
         {% endif %}
-      {% endfor %}
-    </div>
+      </div>
 
-  {% endif %}
-{% endfor %}
+      {% assign cats = chapters_in_book | map: "category" | uniq | sort %}
+      <div class="categories-grid" style="margin-bottom: 48px;">
+        {% for cat in cats %}
+          {% if cat %}
+            {% assign items = chapters_in_book | where: "category", cat | sort: "order" %}
+            <section class="category-card" id="{{ b }}-{{ cat | slugify }}">
+              <h3>{{ cat }}</h3>
+              <ul>
+                {% for c in items %}
+                  <li>
+                    <a href="{{ c.url | relative_url }}">{{ c.title }}</a>
+                    {% if c.summary %}
+                      <span class="ch-summary">{{ c.summary }}</span>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            </section>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+    {% endif %}
+  {% endfor %}
+</div>
