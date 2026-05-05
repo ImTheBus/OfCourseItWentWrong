@@ -1,0 +1,93 @@
+---
+layout: default
+title: Home
+---
+
+{% assign pub_wrong = site.chapters | where: "published", true | where: "book", "of-course-it-went-wrong" %}
+{% assign pub_right = site.chapters | where: "published", true | where: "book", "of-course-it-went-right" %}
+
+<div class="home-page">
+
+  <div class="home-hero">
+    <p class="home-eyebrow">A library of human patterns</p>
+    <h1 class="home-title">Why things go wrong&thinsp;&mdash;&thinsp;and right</h1>
+    <p class="home-intro">Quiet, predictable forces shape how people and organisations behave under pressure. This is a guide to spotting them, named and explained in plain English.</p>
+    <div style="display:flex;gap:16px;flex-wrap:wrap;">
+      <a href="{{ '/chapters/' | relative_url }}" style="display:inline-block;padding:12px 28px;background:var(--ink);color:#fff;border-radius:6px;font-family:var(--font-ui);font-size:0.85rem;font-weight:600;text-decoration:none;">Start reading</a>
+      <a href="{{ '/categories/' | relative_url }}" style="display:inline-block;padding:12px 28px;border:1px solid var(--border);color:var(--ink);border-radius:6px;font-family:var(--font-ui);font-size:0.85rem;font-weight:500;text-decoration:none;">Browse by theme</a>
+    </div>
+  </div>
+
+  <div class="home-series-grid">
+
+    <a href="{{ '/chapters/' | relative_url }}" class="series-card series-card--wrong">
+      <div class="series-card-label">Series 1</div>
+      <h2 class="series-card-title">Of Course It Went Wrong</h2>
+      <p class="series-card-desc">The failure patterns: drift, avoidance, hidden costs, and the quiet forces that make good intentions fail.</p>
+      <span class="series-card-count">{{ pub_wrong.size }} published chapter{% if pub_wrong.size != 1 %}s{% endif %}</span>
+    </a>
+
+    <a href="{{ '/chapters/' | relative_url }}" class="series-card series-card--right">
+      <div class="series-card-label">Series 2</div>
+      <h2 class="series-card-title">Of Course It Went Right</h2>
+      <p class="series-card-desc">The success patterns: what good looks like, why it works, and how to make it repeatable.</p>
+      <span class="series-card-count">{{ pub_right.size }} published chapter{% if pub_right.size != 1 %}s{% endif %}</span>
+    </a>
+
+  </div>
+
+  <div style="max-width:var(--reading-width);margin:0 auto;padding:0 24px 80px;">
+    <div class="subscribe-box">
+      <h3 class="subscribe-heading">One chapter a week</h3>
+      <p class="subscribe-text">New chapters by email. No noise, no sales pitch.</p>
+      <form class="subscribe-form" id="subscribeFormHome" action="https://subscribe.ofcourseiitwentwrong.workers.dev" method="POST">
+        <input type="hidden" name="source" value="ociw-homepage">
+        <div class="subscribe-row">
+          <input type="email" name="email" placeholder="your@email.com" required class="subscribe-input" autocomplete="email">
+          <button type="submit" class="subscribe-btn">Subscribe</button>
+        </div>
+        <p class="subscribe-status" id="subscribeStatusHome" hidden></p>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function () {
+  const form = document.getElementById('subscribeFormHome');
+  const status = document.getElementById('subscribeStatusHome');
+  if (!form || !status) return;
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = form.querySelector('button[type=submit]');
+    btn.disabled = true;
+    btn.textContent = 'Subscribing...';
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: form.email.value, source: form.source.value }),
+      });
+      const data = await res.json().catch(() => ({}));
+      status.hidden = false;
+      if (res.ok) {
+        status.className = 'subscribe-status subscribe-status--ok';
+        status.textContent = 'Done. You will hear from us when the next chapter lands.';
+        form.reset();
+      } else {
+        status.className = 'subscribe-status subscribe-status--err';
+        status.textContent = data.error || 'Something went wrong. Try again.';
+        btn.disabled = false;
+        btn.textContent = 'Subscribe';
+      }
+    } catch {
+      status.hidden = false;
+      status.className = 'subscribe-status subscribe-status--err';
+      status.textContent = 'Could not connect. Check your connection and try again.';
+      btn.disabled = false;
+      btn.textContent = 'Subscribe';
+    }
+  });
+})();
+</script>
