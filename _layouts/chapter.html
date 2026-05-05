@@ -1,35 +1,141 @@
 ---
 layout: default
 ---
-<article class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+
+{% assign all_chapters = site.chapters | where: "published", true | sort: "order" %}
+{% assign book_chapters = all_chapters | where: "book", page.book %}
+{% assign chapter_count = book_chapters | size %}
+
+{% assign prev_chapter = nil %}
+{% assign next_chapter = nil %}
+{% assign found = false %}
+{% for c in book_chapters %}
+  {% if found and next_chapter == nil %}
+    {% assign next_chapter = c %}
+  {% endif %}
+  {% if c.url == page.url %}
+    {% assign found = true %}
+  {% endif %}
+  {% if found == false %}
+    {% assign prev_chapter = c %}
+  {% endif %}
+{% endfor %}
+
+{% assign words = content | number_of_words %}
+{% assign read_mins = words | divided_by: 200 | plus: 1 %}
+
+{% assign series_color = "series-wrong" %}
+{% if page.book == "of-course-it-went-right" %}
+  {% assign series_color = "series-right" %}
+{% endif %}
+
+<article class="chapter-page">
+  <div class="container container--reading">
+
+    <div class="chapter-series {{ series_color }}">
+      {% if page.book == "of-course-it-went-wrong" %}
+        Of Course It Went Wrong
+      {% else %}
+        Of Course It Went Right
+      {% endif %}
+      <span class="chapter-series-sep">/</span>
+      {{ page.category }}
+    </div>
+
+    <h1 class="chapter-title">{{ page.title }}</h1>
 
     {% if page.summary %}
-      <p class="post-meta">{{ page.summary }}</p>
+      <p class="chapter-summary">{{ page.summary }}</p>
     {% endif %}
 
-    <p class="post-meta">
-      {% if page.category %}
-        Category: <a href="{{ '/categories/' | relative_url }}#{{ page.category | slugify }}">{{ page.category }}</a>
+    <div class="chapter-meta">
+      <span class="meta-item">{{ read_mins }} min read</span>
+      {% if page.date %}
+        <span class="meta-sep">&middot;</span>
+        <span class="meta-item">{{ page.date | date: "%B %Y" }}</span>
       {% endif %}
-      {% if page.status %}
-        {% if page.category %} · {% endif %}
-        Status: {{ page.status }}
-      {% endif %}
-    </p>
-  </header>
+    </div>
 
-  <div class="post-content">
-    {{ content }}
+    <hr class="chapter-divider">
+
+    <div class="chapter-body">
+      {{ content }}
+    </div>
+
+    <hr class="chapter-divider">
+
+    <nav class="chapter-nav" aria-label="Chapter navigation">
+      <div class="chapter-nav-prev">
+        {% if prev_chapter %}
+          <a href="{{ prev_chapter.url | relative_url }}" class="chapter-nav-link">
+            <span class="chapter-nav-label">Previous</span>
+            <span class="chapter-nav-title">{{ prev_chapter.title }}</span>
+          </a>
+        {% endif %}
+      </div>
+      <div class="chapter-nav-up">
+        <a href="{{ '/chapters/' | relative_url }}" class="chapter-nav-all">All chapters</a>
+      </div>
+      <div class="chapter-nav-next">
+        {% if next_chapter %}
+          <a href="{{ next_chapter.url | relative_url }}" class="chapter-nav-link chapter-nav-link--next">
+            <span class="chapter-nav-label">Next</span>
+            <span class="chapter-nav-title">{{ next_chapter.title }}</span>
+          </a>
+        {% endif %}
+      </div>
+    </nav>
+
+    <div class="subscribe-box">
+      <h3 class="subscribe-heading">New chapters by email</h3>
+      <p class="subscribe-text">One chapter a week. No noise.</p>
+      <form class="subscribe-form" id="subscribeForm" action="https://subscribe.ofcourseiitwentwrong.workers.dev" method="POST">
+        <input type="hidden" name="source" value="ociw-chapter">
+        <div class="subscribe-row">
+          <input type="email" name="email" placeholder="your@email.com" required class="subscribe-input" autocomplete="email">
+          <button type="submit" class="subscribe-btn">Subscribe</button>
+        </div>
+        <p class="subscribe-status" id="subscribeStatus" hidden></p>
+      </form>
+    </div>
+
   </div>
-
-  <hr>
-
-  <nav class="post-nav" aria-label="Chapter navigation">
-    <p style="margin:0;">
-      <a href="{{ '/chapters/' | relative_url }}">All chapters</a>
-      {% if page.category %} · <a href="{{ '/categories/' | relative_url }}#{{ page.category | slugify }}">Back to {{ page.category }}</a>{% endif %}
-    </p>
-  </nav>
 </article>
+
+<script>
+const form = document.getElementById('subscribeForm');
+const status = document.getElementById('subscribeStatus');
+if (form && status) {
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = form.querySelector('button[type=submit]');
+    btn.disabled = true;
+    btn.textContent = 'Subscribing...';
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: form.email.value, source: form.source.value }),
+      });
+      const data = await res.json();
+      status.hidden = false;
+      if (res.ok) {
+        status.className = 'subscribe-status subscribe-status--ok';
+        status.textContent = 'Done. You will hear from us when the next chapter lands.';
+        form.reset();
+      } else {
+        status.className = 'subscribe-status subscribe-status--err';
+        status.textContent = data.error || 'Something went wrong. Try again.';
+        btn.disabled = false;
+        btn.textContent = 'Subscribe';
+      }
+    } catch {
+      status.hidden = false;
+      status.className = 'subscribe-status subscribe-status--err';
+      status.textContent = 'Could not connect. Check your connection and try again.';
+      btn.disabled = false;
+      btn.textContent = 'Subscribe';
+    }
+  });
+}
+</script>
