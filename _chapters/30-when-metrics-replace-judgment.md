@@ -6,7 +6,7 @@ order: 401
 status: coming-soon
 date: 2026-01-22
 summary: Numbers crowd out thinking when they become proxies for sense.
-published: true
+published: false
 ---
 
 # When Metrics Replace Judgment

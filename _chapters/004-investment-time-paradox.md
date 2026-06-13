@@ -3,12 +3,13 @@ title: The Investment Time Paradox
 slug: investment-time-paradox
 book: of-course-it-went-wrong
 category: Capacity and structure
-order: 040
+order: 401
 status: draft
 date: 2026-01-23
 summary: When a system is under strain, it rejects the very investments that would relieve that strain.
 published: true
 ---
+
 
 ### Vignette
 
@@ -80,3 +81,4 @@ The system optimises for survival in the moment, not sustainability over time.
 ### Reflective question
 
 What investment do you keep postponing because you are too busy, and how long has that busyness already cost you?
+

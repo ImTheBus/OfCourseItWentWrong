@@ -3,13 +3,14 @@ layout: chapter
 title: Fear Accelerates Bad Behaviour
 slug: fear-accelerates-bad-behaviour
 book: of-course-it-went-wrong
-category: Individual Behaviour
-order: 107
+category: Individual behaviour
+order: 106
 status: Draft
 date: 2026-01-22
 summary: Stress shortens thinking and sharpens selfish instincts.
 published: true
 ---
+
 
 ## Fear Accelerates Bad Behaviour  
 *Stress shortens thinking and sharpens selfish instincts.*
@@ -72,4 +73,5 @@ Fear still appears, but it does not set the pace.
 
 ### Reflective Question  
 Where in your organisation does pressure currently reward speed or self-protection over judgement, and what behaviour does that accelerate when fear rises?
+
 

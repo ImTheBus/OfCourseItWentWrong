@@ -3,12 +3,13 @@ title: Experience Narrows Possibility
 slug: experience-narrows-possibility
 book: of-course-it-went-wrong
 category: Team dynamics
-order: 102
+order: 201
 status: draft
 date: 2026-01-22
 summary: Past success quietly narrows what feels possible, turning experience into a constraint just when change is needed.
 published: true
 ---
+
 
 # The Experience Trap
 
@@ -78,3 +79,4 @@ Experience should inform judgement, not define the limits of imagination.
 ## A reflective question
 
 Where are you improving something because it is familiar, rather than because it is the best shape for what comes next?
+

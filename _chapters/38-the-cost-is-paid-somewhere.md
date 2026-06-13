@@ -6,7 +6,7 @@ order: 409
 status: coming-soon
 date: 2026-01-22
 summary: Every gain creates a hidden expense.
-published: true
+published: false
 ---
 
 # The Cost Is Paid Somewhere

@@ -3,13 +3,14 @@ layout: chapter
 title: The Cost of Unsaid Things
 slug: the-cost-of-unsaid-things
 book: of-course-it-went-wrong
-category: Individual Behaviour
-order: 105
+category: Individual behaviour
+order: 104
 status: Draft
 date: 2026-01-22
 summary: What goes unspoken does not disappear; it accumulates and resurfaces later with greater force.
 published: true
 ---
+
 
 ## The Cost of Unsaid Things  
 *What goes unspoken does not disappear; it accumulates and resurfaces later with greater force.*
@@ -81,3 +82,4 @@ Problems are discussed at the size they actually are, not at the size they event
 
 ### Reflective Question  
 What unresolved issue are you currently working around, and what cost is quietly accumulating as a result?
+

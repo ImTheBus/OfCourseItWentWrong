@@ -3,12 +3,13 @@ title: Fear Masquerading as Prudence
 slug: fear-masquerading-as-prudence
 book: of-course-it-went-wrong
 category: Individual behaviour
-order: 103
+order: 102
 status: draft
 date: 2026-01-22
 summary: When fear of being wrong is reframed as caution, decisions stall until events force a worse outcome.
 published: true
 ---
+
 
 # Fear Masquerading as Prudence
 
@@ -87,3 +88,4 @@ Countering this does not mean rushing. It means being honest about why you are w
 ## A reflective question
 
 If this decision were made for you tomorrow, would you feel relief or regret?
+

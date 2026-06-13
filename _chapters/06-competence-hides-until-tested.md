@@ -3,13 +3,14 @@ layout: chapter
 title: Competence Hides Until Tested
 slug: competence-hides-until-tested
 book: of-course-it-went-wrong
-category: Individual Behaviour
-order: 106
+category: Individual behaviour
+order: 105
 status: Draft
 date: 2026-01-22
 summary: Capability remains invisible until pressure forces it into view.
 published: true
 ---
+
 
 ## Competence Hides Until Tested  
 *Capability remains invisible until pressure forces it into view.*
@@ -73,3 +74,4 @@ Competence is not assumed. It is observed.
 
 ### Reflective Question  
 Whose capability in your organisation has only ever been inferred from calm conditions, and what risk does that create when pressure inevitably arrives?
+

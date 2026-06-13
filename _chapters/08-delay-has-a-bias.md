@@ -3,13 +3,14 @@ layout: chapter
 title: Delay Has a Bias
 slug: delay-has-a-bias
 book: of-course-it-went-wrong
-category: Individual Behaviour
-order: 108
+category: Individual behaviour
+order: 107
 status: Draft
 date: 2026-01-22
 summary: Waiting is rarely neutral and usually favours the status quo.
 published: true
 ---
+
 
 ## Delay Has a Bias  
 *Waiting is rarely neutral and usually favours the status quo.*
@@ -75,3 +76,4 @@ Delay still occurs, but its bias is understood and accounted for.
 
 ### Reflective Question  
 What decision are you currently postponing, and what outcome does that delay quietly favour?
+

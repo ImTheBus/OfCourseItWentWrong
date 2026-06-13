@@ -6,7 +6,7 @@ order: 309
 status: coming-soon
 date: 2026-01-22
 summary: Tools shape behaviour long after they should be retired.
-published: true
+published: false
 ---
 
 # Tools Outgrow Their Purpose

@@ -6,7 +6,7 @@ order: 210
 status: coming-soon
 date: 2026-01-22
 summary: Culture emerges where rules and clarity run out.
-published: true
+published: false
 ---
 
 # Culture Forms in the Gaps

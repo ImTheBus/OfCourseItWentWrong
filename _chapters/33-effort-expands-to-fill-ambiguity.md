@@ -6,7 +6,7 @@ order: 404
 status: coming-soon
 date: 2026-01-22
 summary: Unclear goals invite wasted energy.
-published: true
+published: false
 ---
 
 # Effort Expands to Fill Ambiguity

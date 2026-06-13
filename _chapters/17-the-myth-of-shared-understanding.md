@@ -6,7 +6,7 @@ order: 208
 status: coming-soon
 date: 2026-01-22
 summary: Shared language often hides very different interpretations.
-published: true
+published: false
 ---
 
 # The Myth of Shared Understanding

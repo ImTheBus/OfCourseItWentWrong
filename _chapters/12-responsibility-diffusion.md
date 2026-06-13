@@ -6,7 +6,7 @@ order: 203
 status: coming-soon
 date: 2026-01-22
 summary: When everyone is responsible, no one truly is.
-published: true
+published: false
 ---
 
 # Responsibility Diffusion

@@ -3,11 +3,13 @@ title: The Invisible Success Problem
 slug: invisible-success-problem
 book: of-course-it-went-wrong
 category: Measurement and perception
-order: 010
+order: 601
 status: draft
 date: 2026-01-22
 summary: When success becomes invisible and only failures generate attention, teams misread the situation and overreact.
+published: true
 ---
+
 
 # The Invisible Success Problem
 
@@ -88,3 +90,4 @@ This does not mean dismissing failures. It means placing them in context.
 ## A reflective question
 
 Where in your organisation do people see only what went wrong, and what story would they tell if they could also see everything that quietly went right?
+

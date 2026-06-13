@@ -6,7 +6,7 @@ order: 304
 status: coming-soon
 date: 2026-01-22
 summary: Speaking the truth often carries hidden personal costs.
-published: true
+published: false
 ---
 
 # Systems Punish Honesty

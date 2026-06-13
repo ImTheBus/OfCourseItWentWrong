@@ -6,7 +6,7 @@ order: 305
 status: coming-soon
 date: 2026-01-22
 summary: Issues spread across boundaries whether allowed or not.
-published: true
+published: false
 ---
 
 # Problems Don’t Stay in Their Lane

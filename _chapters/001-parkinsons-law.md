@@ -11,6 +11,7 @@ published: true
 ---
 
 
+
 ## Parkinson’s Law  
 *Work expands to fill the time and space available, regardless of actual need.*
 
@@ -70,3 +71,4 @@ Reduced demand leads to reduced activity, not internal expansion. People are bus
 
 ### Reflective Question  
 If external demand dropped by half tomorrow, what work would genuinely disappear, and what would quietly turn inward to fill the gap?
+

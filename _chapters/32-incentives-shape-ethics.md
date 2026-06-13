@@ -6,7 +6,7 @@ order: 403
 status: coming-soon
 date: 2026-01-22
 summary: Rewards quietly define acceptable behaviour.
-published: true
+published: false
 ---
 
 # Incentives Shape Ethics

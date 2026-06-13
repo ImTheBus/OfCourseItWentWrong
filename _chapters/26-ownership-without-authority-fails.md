@@ -6,7 +6,7 @@ order: 307
 status: coming-soon
 date: 2026-01-22
 summary: Responsibility without power guarantees frustration.
-published: true
+published: false
 ---
 
 # Ownership Without Authority Fails

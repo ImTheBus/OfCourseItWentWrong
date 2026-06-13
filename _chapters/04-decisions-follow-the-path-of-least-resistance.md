@@ -3,13 +3,14 @@ layout: chapter
 title: Decisions Follow the Path of Least Resistance
 slug: decisions-follow-the-path-of-least-resistance
 book: of-course-it-went-wrong
-category: Individual Behaviour
-order: 104
+category: Individual behaviour
+order: 103
 status: Draft
 date: 2026-01-22
 summary: In the absence of challenge or clarity, decisions default to momentum, authority, or the fastest voices.
 published: true
 ---
+
 
 ## Decisions Follow the Path of Least Resistance  
 *In the absence of challenge or clarity, decisions default to momentum, authority, or the fastest voices.*
@@ -82,3 +83,4 @@ Resistance becomes a constructive force, not a social risk.
 
 ### Reflective Question  
 Where have you recently allowed a decision to follow the easiest path because resistance felt harder than silence?
+

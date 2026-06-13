@@ -3,13 +3,14 @@ layout: chapter
 title: People Optimise for Survival
 slug: people-optimise-for-survival
 book: of-course-it-went-wrong
-category: Individual Behaviour
-order: 109
+category: Individual behaviour
+order: 108
 status: Draft
 date: 2026-01-22
 summary: Most behaviour makes sense when viewed as self-preservation.
 published: true
 ---
+
 
 ## People Optimise for Survival  
 *Most behaviour makes sense when viewed as self-preservation.*
@@ -72,3 +73,4 @@ People will always optimise for survival. Healthy systems ensure that survival a
 
 ### Reflective Question  
 What behaviour in your organisation looks wrong until you ask what someone is trying to protect by acting that way?
+
