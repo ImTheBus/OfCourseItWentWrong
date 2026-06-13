@@ -10,65 +10,58 @@ summary: Work expands to fill the time and space available, regardless of actual
 published: true
 ---
 
+# Parkinson's Law
 
-
-## Parkinson’s Law  
 *Work expands to fill the time and space available, regardless of actual need.*
 
-### Vignette  
-After independence, parts of the civil service in India saw a reduction in their original administrative workload. Fewer programmes were running. Fewer decisions genuinely needed to be made. The volume of external demand declined.
+---
 
-The organisation did not shrink.
+A government department finds its original workload shrinking. The programmes it was built to run have wound down, fewer decisions genuinely need making, and the volume of demand coming in from outside has fallen away. By any honest measure, there is now less to do.
 
-Instead, internal activity increased. Committees multiplied. Subcommittees were formed to support them. Meetings generated agendas, which generated minutes, which generated action points, which generated follow-up meetings. Entire roles emerged to manage the coordination of work that no longer meaningfully existed.
+The department does not shrink to match. Headcount stays. Diaries stay full. Office hours stay the same.
 
-Everyone was busy. No one was idle. The system grew, even as the work that justified its existence diminished.
+What happens instead is that the work turns inward. Committees form to oversee the remaining activity, and subcommittees form to support the committees. Meetings produce agendas, which produce minutes, which produce action points, which produce follow-up meetings. Reports are written about the reports. Roles emerge whose entire purpose is to coordinate the coordination. Everyone is busy. Everyone can point to a full week. No one is idle.
 
-### The Principle  
-Parkinson’s Law is not a comment on laziness or people taking advantage. It describes how work naturally expands to occupy the time and space available to it, even when everyone involved is conscientious and genuinely trying.
+A year on, the department is working as hard as it ever did, and producing less than it ever did, and nobody can name the moment it tipped. There was no decision to become busier as the work got smaller. The structure simply expanded, meeting by meeting and report by report, to fill the space the real work had left behind.
 
-When workload reduces but time, structure, and headcount remain unchanged, effort does not disappear. It redirects inward. Activity multiplies to fill the vacuum. Busyness becomes self-sustaining, even as value creation declines.
+---
 
-The failure is not effort. It is the loss of distinction between being busy and adding value.
+## The Principle
+**Work expands to fill the time, headcount, and structure available to it — so when the real work shrinks, activity does not, it just turns inward.**
 
-### Why It Is Inevitable  
-Organisations shape behaviour through their constraints, or lack of them.
+This is not a comment on laziness or people gaming the system. It is the opposite: it happens precisely because people are conscientious. Give a capable person empty time and an unfilled diary and they will find something that looks like work to put in it, because being seen to be busy is what the environment rewards. The trouble is that the activity which fills the vacuum is rarely the activity that creates value. The failure is not a lack of effort — it is the slow loss of any way to tell the difference between being busy and being useful.
 
-When there is no external pressure to deliver outcomes quickly, internal processes become the work. Meetings exist because diaries are available. Papers are written because there is time to write them. Reviews are added because nothing yet forces a decision.
+## Why It Is Inevitable
+Organisations shape behaviour through their constraints, and the absence of a constraint is itself a force. When nothing external presses for an outcome by a particular date, the internal process becomes the work. Meetings exist because the diaries are free to hold them. Papers get written because there is time to write them. A review gets added because nothing yet forces the decision the review is meant to inform.
 
-People respond rationally to the environment they are in. If diligence is measured by visible activity rather than outcomes, activity will expand to meet that expectation.
+People respond rationally to what their environment measures. If diligence is judged by visible activity — attendance, throughput of documents, hours occupied — then activity will expand to meet that expectation, regardless of whether the underlying need still exists. Nobody is asked to justify their busyness against the shrinking total, so the busyness is never challenged.
 
-### How It Shows Up  
-- A rising number of meetings despite a stable or shrinking workload.  
-- Agendas, minutes, and action logs growing faster than delivery.  
-- Decisions delayed by consultation that does not materially change the outcome.  
-- Roles focused on managing coordination rather than producing results.  
-- Progress existing primarily in documents rather than in reality.
+And the expansion hides itself behind familiar, respectable explanations. The work feels complex, so more governance seems wise. Things keep slipping, so more reporting seems prudent. Each of those reads as a case for adding more process, when the real condition is the reverse: an excess of time and space that activity has rushed in to fill. The diagnosis points at a lack of control when the actual cause is a lack of pressure.
 
-### Why It Causes Damage  
-The harm is not just inefficiency. It is distortion.
+## How It Shows Up
+- A rising number of meetings despite a stable or shrinking workload.
+- Agendas, minutes, and action logs growing faster than anything actually delivered.
+- Decisions delayed by consultation that does not change the outcome, only the paper trail.
+- Roles defined around coordinating work rather than producing it.
+- Progress that exists mainly in documents and dashboards rather than in reality.
+- Calls for "stronger governance" or "better reporting" in answer to a problem that is really too much slack.
 
-When busyness is mistaken for value, organisations lose the ability to tell whether they are effective. Resources are consumed maintaining internal motion. External impact slows, costs rise, and accountability becomes diffuse.
+## Why It Causes Damage
+The harm is not merely inefficiency, which would at least be measurable. It is distortion. When busyness is mistaken for value, an organisation loses the ability to tell whether it is effective at all — every week looks full, every person looks stretched, and none of it maps cleanly onto anything achieved. Resources are consumed maintaining internal motion, external impact quietly slows, costs rise, and accountability dissolves because the work is spread across so many committees that no one owns the result.
 
-Over time, people become exhausted without feeling useful. The system demands more effort while delivering less meaning.
+There is a human cost layered on top. People end up exhausted without feeling useful, which is a particular kind of demoralising — the effort is real and the meaning is missing. Over time the organisation trains its best people to mistake motion for progress, and that habit is hard to unlearn even when real work returns.
 
-### Common Misdiagnoses  
-- “The work is inherently complex.”  
-- “We need stronger governance.”  
-- “We need better reporting.”  
+## How To Counter It
+- Treat meetings, committees, and reporting as costs that must earn their keep, not as free goods.
+- Define value explicitly in terms of outcomes, and refuse to let visible activity stand in for it.
+- Set deliberate, tighter timelines rather than waiting for urgency to arrive by accident — the deadline supplies the constraint the work has lost.
+- When demand falls, remove work to match it, instead of allowing the slack to turn inward.
+- Make "this no longer needs doing" a respectable thing to conclude, so stopping is an option people will actually reach for.
 
-Often the real problem is not a lack of control, but an excess of time and space.
+## What Good Looks Like
+Reduced demand leads to reduced activity, not to internal expansion. People are busy because there is genuine work in front of them, not because the structure needs them to be in motion. Effort stays roughly proportional to value, and winding something down is recognised as a result in its own right rather than treated as an admission that a role was never needed.
 
-### How to Counter It  
-- Treat meetings, committees, and reporting as costs that must earn their keep.  
-- Define value explicitly in terms of outcomes, not activity.  
-- Reduce timelines deliberately rather than letting urgency arrive by accident.  
-- Remove work when demand falls instead of allowing it to turn inward.  
-- Make it acceptable to conclude that some work no longer needs doing.
+The organisation can answer the awkward question — what would actually stop if we stopped doing it? — without flinching, because it asks that question of itself before the slack has a chance to fill.
 
-### What Good Looks Like  
-Reduced demand leads to reduced activity, not internal expansion. People are busy because there is work to be done, not because the structure requires motion. Effort is proportional to value, and stopping work is recognised as progress.
-
-### Reflective Question  
-If external demand dropped by half tomorrow, what work would genuinely disappear, and what would quietly turn inward to fill the gap?
-
+## A Reflective Question
+If the demand on your team halved tomorrow, what work would genuinely disappear — and what would quietly expand to fill the gap so that everyone stayed exactly as busy as before?

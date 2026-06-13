@@ -31,6 +31,7 @@ The metric looked fine right up until the system did not.
 ---
 
 ## The Principle
+**The moment a measure becomes the target, people start moving the number instead of changing the reality it was meant to reflect — and the measure stops telling you anything true.**
 
 A KPI is a diagnostic signal. It tells you whether something is healthy, like a temperature gauge, or a blood pressure reading. The value of it lies in its accuracy. When it drifts outside the normal range, something needs attention. When it sits within range, you can proceed.
 
@@ -64,23 +65,13 @@ Visibility disappears. A measure being gamed tells you nothing. It looks like in
 
 And the people who know pay a hidden cost. Frontline workers who can see the disconnect between reported and actual performance are placed in an impossible position. Speaking up means contradicting a metric that leadership has invested in. Staying quiet means absorbing a form of institutional dishonesty day after day. That accumulates. It shows up as cynicism, stress, disengagement, and eventually in the numbers nobody thought to measure.
 
-## Common Misdiagnoses
+The trouble is reliably misdiagnosed. When the number looks wrong, the instinct is to blame the reporting — but better tools capturing the wrong data improve nothing. Or to blame the people, scrutinising their effort and commitment while never asking whether the thing being measured was the right thing at all. Or to call for more resource, when the real shortage is signal, not capacity — there is no honest feedback left to show where investment would actually help, because the data has been tuned for appearance rather than accuracy. In each case the measure gets defended and the wrong fix gets applied.
 
-**"The reporting is broken."** Sometimes true. But often the problem is not the reporting system. It is what was asked to be measured in the first place. Better tools capturing the wrong data do not improve anything.
-
-**"People are not working hard enough."** When performance looks poor against a metric, the instinct is often to look at people: their effort, their commitment, their attitude. Rarely does the question get asked: are we measuring the right thing? The measure gets defended. The people get scrutinised.
-
-**"We need more resource."** Occasionally correct. More often, the problem is not a lack of resource but a lack of signal. No clear feedback about where investment would actually make a difference, because the data has been optimised for appearance rather than accuracy.
-
-## How to Counter It
-
-The distinction between a KPI and a target matters, and it is worth preserving deliberately.
-
-A KPI should have a range, not a fixed point. Above X, below Y: operating normally. Going outside that range is not failure. It is a signal that something needs to be understood. An organisation that treats a KPI breach as a problem to be hidden has lost the only mechanism it had for detecting real problems.
-
-Pair any measure of speed or quantity with a measure of quality. If you track how fast, also track how well. If you track cost, also track what is being built. Single metrics almost always get gamed. Paired metrics are harder to game simultaneously.
-
-And separate measurement from judgment. If hitting a number determines whether someone is seen as successful, that number will be hit, one way or another.
+## How To Counter It
+- Preserve the distinction between a KPI and a target deliberately — the first is a signal to be read, the second a directive to be hit, and confusing them destroys both.
+- Give a KPI a healthy range rather than a fixed point. Drifting outside it is information to be understood, not a failure to be hidden — an organisation that conceals breaches has lost its only means of detecting real problems.
+- Pair any measure of speed or quantity with a measure of quality. Track how fast and how well; track cost and what is being built. Single metrics get gamed; paired ones are far harder to game at once.
+- Separate measurement from judgement. If hitting a number decides whether someone is seen as successful, the number will be hit one way or another.
 
 ## What Good Looks Like
 
