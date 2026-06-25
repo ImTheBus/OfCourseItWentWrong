@@ -1,0 +1,91 @@
+---
+title: "The Contingent Decision Law"
+slug: the-contingent-decision-law
+book: of-course-it-went-wrong
+category: "Framing the whole"
+order: 136
+summary: "Delay is acceptable only when outcomes are already understood."
+published: true
+---
+
+# The Contingent Decision Law
+
+**Category:** Framing the whole
+*Delay is acceptable only when outcomes are already understood.*
+
+---
+
+A regional distributor needed to replace its ageing fleet of delivery vans. Two decisions sat on the table, and they were treated as one.
+
+The first was whether to lease the new vans or buy them outright. The second was whether to commit to a single vehicle platform — one manufacturer, one drivetrain, one charging standard — across the whole fleet for the next decade.
+
+The finance director wanted both questions answered by the end of the quarter. The operations lead asked for more time. The board, sensibly enough, agreed to wait. Waiting felt like the cautious, grown-up thing to do.
+
+Here is what the delay actually did to each decision.
+
+The lease-or-buy question was fully understood. Both outcomes were known. A lease cost a known amount each month and could be unwound at renewal. A purchase cost a known amount up front and could be sold on if it turned out wrong. Either way, the firm could change its mind in twelve months at a calculable price. Holding that decision open cost almost nothing. The vans were still rolling. The money was still in the bank. Delay there was genuinely neutral.
+
+The platform question was not understood at all. Nobody knew yet which drivetrain would hold its value, which charging standard the depots would standardise on, or whether the firm's routes would shift toward longer runs that changed the whole calculation. The outcomes of each option were unknown. And that decision could not be unwound — once you have committed a depot's worth of chargers, a maintenance contract, and a driver-training programme to one platform, you are married to it.
+
+The board waited on both. It felt like one prudent pause.
+
+But waiting on the lease question changed nothing, while waiting on the platform question quietly let the situation move. Two of the manufacturers under consideration changed their commercial terms. A grant scheme the firm had been counting on closed to new applicants. By the time the platform decision was forced — because the old vans finally started failing and replacements had to be ordered *now* — the firm was choosing under pressure, with fewer options, on the one decision where it least understood the outcomes and could least afford to be wrong.
+
+The reversible, understood decision had been safe to defer. The irreversible, ununderstood one had not. The board had treated them identically, and the delay it thought was uniform caution was caution on one and recklessness on the other.
+
+---
+
+## The Principle
+**Delay is safe only on decisions whose outcomes you already understand. Defer a decision whose consequences you do not yet understand, and you are not buying time — you are letting the situation make the choice for you.**
+
+This is the law that sits above the observation that delay has a bias. That observation is true: waiting is rarely neutral and usually favours whatever already exists. But it is not the whole story, because not all delay is equal, and treating it as if it were is its own mistake. Some decisions genuinely can wait, and forcing them early is just as careless as forcing a decision that should have waited.
+
+The dividing line is understanding. A decision is safe to defer when you already know, with reasonable confidence, what each option leads to — when the outcomes are mapped, the trade-offs are visible, and the cost of changing your mind later is known and bearable. Under those conditions, waiting buys you information, optionality, or simply a better moment, and it costs you little. Delay there is a tool.
+
+A decision is dangerous to defer when you do *not* understand the outcomes — when you cannot yet say where each option leads, what it will cost to reverse, or what the world will look like by the time you are forced to choose. There, delay does not buy understanding. Understanding has to be worked for; it does not arrive by waiting. So deferring an ununderstood decision simply hands time the power to narrow your options and choose for you, on the very decision where you most needed to choose deliberately.
+
+The error is not delay. The error is applying the same instinct — wait, gather, defer — to both kinds of decision as though they were the same kind. They are not. The contingent decision law is the discipline of asking *which kind is this* before deciding whether waiting is wise.
+
+## Why It Is Inevitable
+Delay feels like a single behaviour, so it gets judged as a single behaviour. "Let's not rush this" sounds equally sensible whatever decision it is applied to. The phrase does not distinguish between a choice you understand and a choice you do not, and neither, usually, does the person saying it. Caution is treated as a constant virtue rather than a thing that is wise in one situation and foolish in the next.
+
+The two kinds of decision also look alike from the outside. Both arrive as items on an agenda. Both can be deferred with the same words. The difference between them — whether the outcomes are understood — is invisible unless someone deliberately surfaces it, and surfacing it is uncomfortable, because it forces you to admit out loud which decisions you do not yet understand. Most rooms would rather not say that, so the distinction stays buried and both decisions get the same treatment.
+
+There is a deeper pull as well. Deferring an ununderstood decision feels *more* responsible than deferring an understood one, not less. If you do not understand the outcomes, waiting feels like the honest response — surely you should not commit to something you do not understand. And that instinct is half right. You should not commit blindly. But the alternative to committing blindly is to *go and understand*, not to wait and hope understanding turns up on its own. The instinct stops at "don't decide yet" and never reaches "so do the work that would let you decide." Waiting masquerades as the prudent answer to uncertainty when it is only the comfortable one.
+
+Finally, the decisions that most need understanding are usually the ones that are hardest to understand — the irreversible, expensive, far-reaching ones. They resist analysis. So the very decisions where deferral is most dangerous are the ones where the temptation to defer is strongest, because doing the work to understand them is genuinely hard and putting them off is genuinely easy.
+
+## How It Shows Up
+- Reversible and irreversible decisions bundled into a single "let's wait and see," as though one pause fits both.
+- Uncertainty used as a reason to defer rather than as a reason to investigate — "we don't know enough yet" closing the conversation instead of opening a piece of work.
+- The understood decision endlessly re-examined while the ununderstood one is quietly left to drift, because re-examining what you already grasp feels productive and confronting what you do not feels hard.
+- Irreversible commitments made at the last minute, under time pressure, on the decisions that most deserved a deliberate process.
+- "We kept our options open" offered as a defence after the options have, in fact, closed by themselves.
+- Confidence that delay is neutral, with no one asking whether *this particular* delay is neutral or directional.
+
+## Why It Causes Damage
+The damage has a specific shape, and it is not simply that things went wrong. It is that they went wrong on exactly the decisions least able to absorb it.
+
+When you defer an understood, reversible decision unnecessarily, the cost is small — a little lost time, a slightly worse moment, nothing you cannot recover from, because by definition you can change your mind. But when you defer an ununderstood, irreversible decision, the cost compounds in two directions at once. The situation moves while you wait, so your options narrow. And because you never did the work to understand the outcomes, you are eventually forced to commit anyway — under time pressure, with the world already changed, on the one decision you could not take back. You end up making your least-reversible choice in your least-informed state. That is close to the worst possible ordering, and the law exists precisely to prevent it.
+
+There is a second, quieter cost. Bundling the two kinds of decision together means the genuine prudence of deferring the understood one lends false respectability to deferring the ununderstood one. The room remembers that "we were right to wait" on the easy call and assumes it was therefore right to wait on the hard one too. The success of justified delay is used to excuse the failure of unjustified delay. The lesson that should have been learned — *those were different decisions* — is buried under a general sense that patience paid off, when in truth it paid off on one and quietly cost a fortune on the other.
+
+And as ever, the failure is misattributed. When the forced, last-minute, irreversible choice goes badly, it is blamed on bad luck, on the market shifting, on timing. It is rarely traced back to the original error, which was not the choice itself but the decision to leave an ununderstood decision unattended until time made it for you.
+
+## How To Counter It
+- Before deciding whether to wait, sort the decision: is its outcome understood or not, and is it reversible or not? The answer changes everything that follows.
+- Treat "we don't understand the outcomes yet" not as permission to defer but as a brief: name what you would need to learn, and go and learn it on a clock.
+- Let understood, reversible decisions wait freely when waiting helps — there is no virtue in forcing them early. Spend the saved attention on the decisions that actually need it.
+- Protect ununderstood, irreversible decisions from drift. Give them a deliberate process and a real deadline *before* circumstances impose one.
+- Never bundle a reversible decision and an irreversible one into a single pause. Separate them explicitly, even when they arrive together, so each gets the treatment its kind deserves.
+- When you catch yourself reassured that "we kept our options open," check whether the options are actually still open or have simply closed without anyone deciding.
+
+## What Good Looks Like
+A room that has internalised the law does not ask "should we wait?" as its first question. It asks "what kind of decision is this?" — and only then decides whether waiting is wise. Reversible, understood choices are allowed to sit until the right moment, without anyone mistaking that patience for a universal rule. Irreversible, ununderstood choices are pulled forward into a deliberate process, given the work and the time they need to become understood, and resolved before the situation forces a worse version of the same choice under pressure.
+
+Delay still happens. It happens more on the decisions that can bear it and less on the decisions that cannot, which is exactly the right distribution. Uncertainty is met with investigation rather than with waiting. And when the firm looks back, it can say honestly that its biggest, least-reversible commitments were made in its most-informed state, not its least — because the decisions it could not take back were the ones it refused to leave to chance.
+
+The instinct to be cautious is preserved. It is simply pointed at the decisions where caution means *understand this before you commit*, rather than the decisions where caution has quietly come to mean *avoid committing at all*.
+
+## A Reflective Question
+Of the decisions you are currently leaving open, which ones can you genuinely take back later — and which ones are you deferring precisely because you do not yet understand them, while time quietly decides them for you?

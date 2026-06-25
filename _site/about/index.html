@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About — Of Course It Went Wrong</title>
+  <meta name="description" content="Quiet, predictable forces that shape how people behave at work, at home, and in groups.">
+
+  <!-- OG / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About — Of Course It Went Wrong">
+  <meta property="og:description" content="Quiet, predictable forces that shape how people behave at work, at home, and in groups.">
+  <meta property="og:url" content="https://imthebus.github.io/about/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="About">
+  <meta name="twitter:description" content="Quiet, predictable forces that shape how people behave at work, at home, and in groups.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="site-brand" href="/">Of Course It Went Wrong</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/categories/">Categories</a>
+        <a href="/chapters/">All chapters</a>
+        <a href="/about/">About</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="generic-page">
+  <div class="container">
+
+    <h1>About this project</h1>
+
+    <p>This is a library of named patterns — the recurring dynamics that explain why organisations and people behave the way they do, especially under pressure.</p>
+
+    <p>Most of these patterns have been observed and described by researchers, managers, and writers over the past hundred years. Many have clinical names buried in academic papers. This project reframes them in plain English and makes them practical.</p>
+
+    <h2>Two series</h2>
+
+    <p><strong>Of Course It Went Wrong</strong> covers failure modes: the drift, avoidance, optimism bias, and hidden costs that quietly pull good plans off course. Most readers find they recognise every chapter.</p>
+
+    <p><strong>Of Course It Went Right</strong> covers the mirror image: the conditions, habits, and structural choices that make things work reliably. Fewer people notice these in action, which is partly the point.</p>
+
+    <h2>How to read it</h2>
+
+    <p>Chapters are short. Each covers one named pattern — what it is, where it shows up, and how to spot it. They are written to stand alone, but they are ordered for a reason. Reading in sequence builds a vocabulary that makes later chapters faster to absorb.</p>
+
+    <p>The goal is a book. Probably self-published. The chapters here are a working draft.</p>
+
+    <h2>Contact</h2>
+
+    <p>Questions, corrections, or a pattern you think belongs here: <a href="mailto:dean@imthebus.co.uk">dean@imthebus.co.uk</a></p>
+
+  </div>
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-title">Of Course It Went Wrong</span>
+          <p class="footer-desc">Quiet, predictable forces that shape how people behave at work, at home, and in groups.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="/">Home</a>
+          <a href="/categories/">Categories</a>
+          <a href="/chapters/">All chapters</a>
+          <a href="/about/">About</a>
+        </nav>
+      </div>
+      <p class="footer-copy">&copy; 2026 Of Course It Went Wrong. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    if (toggle && nav) {
+      toggle.addEventListener('click', () => {
+        const open = nav.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', open);
+      });
+    }
+  </script>
+
+</body>
+</html>

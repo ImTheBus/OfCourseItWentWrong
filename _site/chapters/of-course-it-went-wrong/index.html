@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Of Course It Went Wrong — Of Course It Went Wrong</title>
+  <meta name="description" content="Why these failures feel surprising but are rarely accidental.">
+
+  <!-- OG / social -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Of Course It Went Wrong — Of Course It Went Wrong">
+  <meta property="og:description" content="Why these failures feel surprising but are rarely accidental.">
+  <meta property="og:url" content="https://imthebus.github.io/chapters/of-course-it-went-wrong/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Of Course It Went Wrong">
+  <meta name="twitter:description" content="Why these failures feel surprising but are rarely accidental.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="site-brand" href="/">Of Course It Went Wrong</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/categories/">Categories</a>
+        <a href="/chapters/">All chapters</a>
+        <a href="/about/">About</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article class="chapter-page">
+  <div class="container container--reading">
+
+    <div class="chapter-series series-wrong">
+      
+        Of Course It Went Wrong
+      
+      <span class="chapter-series-sep">/</span>
+      Framing the whole
+    </div>
+
+    <h1 class="chapter-title">Of Course It Went Wrong</h1>
+
+    
+      <p class="chapter-summary">Why these failures feel surprising but are rarely accidental.</p>
+    
+
+    <div class="chapter-meta">
+      <span class="meta-item">9 min read</span>
+      
+    </div>
+
+    <hr class="chapter-divider">
+
+    <div class="chapter-body">
+      <h1 id="of-course-it-went-wrong">Of Course It Went Wrong</h1>
+
+<p><strong>Category:</strong> Framing the whole
+<em>Why these failures feel surprising but are rarely accidental.</em></p>
+
+<hr />
+
+<p>Sit in enough post-mortems and you start to notice the same sentence, said in the same tired voice, by different people in different rooms about completely unrelated disasters.</p>
+
+<p><em>“In hindsight, it was obvious.”</em></p>
+
+<p>It is said about the project that overran by a year, the product nobody bought, the talented person who quit without warning, the outage that took down everything at once, the merger that destroyed more value than it created. Different industries, different decades, different scales — and the same shrug at the end. It was obvious. We should have seen it coming. Of course it went wrong.</p>
+
+<p>Here is the thing that sentence is quietly admitting. If it was obvious in hindsight, then the information was there in foresight too. Nothing arrived from outside. No new fact appeared at the end that wasn’t available, somewhere, to someone, at the start. The failure was legible the whole time. People simply could not read it while it was happening, and could read it perfectly the moment it was over.</p>
+
+<p>This book is about why that happens, and why it keeps happening, and why it will happen to you and the things you build no matter how clever or careful you are — unless you understand the machinery underneath it.</p>
+
+<hr />
+
+<h2 id="the-claim-this-book-is-making">The claim this book is making</h2>
+
+<p>The claim is simple to state and uncomfortable to sit with: <strong>most organisational and human failures are not accidents. They are the predictable output of systems behaving exactly as they were built to behave.</strong></p>
+
+<p>That is a deliberately strong way to put it, so let me be precise about what I mean and what I don’t.</p>
+
+<p>I do not mean that every disaster was foreseeable in its specifics. You could not have predicted the exact week, the exact trigger, the exact person who finally snapped or the exact server that finally fell over. Specifics are genuinely unpredictable; the world has too many moving parts.</p>
+
+<p>I mean something narrower and far more useful. I mean that the <em>conditions</em> for the failure were not hidden. The pressures that produced it were structural, recurring, and visible to anyone who knew where to look. The trigger was random. The vulnerability was not. And the vulnerability is almost always the same small set of patterns, wearing different clothes, showing up again and again across organisations that have never met each other and would swear they have nothing in common.</p>
+
+<p>When you can see the patterns, “of course it went wrong” stops being a shrug of resignation and becomes something much more like a diagnosis. The same three words, said two completely different ways. One is the sound of a person who has given up explaining. The other is the sound of a person who has finally understood. This book is an attempt to move you from the first to the second.</p>
+
+<h2 id="why-the-failures-feel-like-surprises">Why the failures feel like surprises</h2>
+
+<p>If the patterns are so visible, why does nobody see them coming? Because seeing them requires standing outside the system, and almost nobody gets to stand outside the system while they are inside it living their day.</p>
+
+<p>Three things conspire to keep the patterns hidden in real time.</p>
+
+<p><strong>The cost is always paid later, and somewhere else.</strong> The decisions that cause failures are nearly always rational, defensible, even admirable on the day they are made. Deferring the awkward conversation is kind. Adding the extra check is prudent. Hitting the number this quarter is responsible. Each choice is locally sensible. The damage only appears when dozens of locally sensible choices accumulate into a globally insane situation — and by then the choices are long in the past, owned by no one in particular, and impossible to point at. The cause is distributed across time and people. The effect arrives all at once. Our minds are very good at connecting a single cause to a single effect, and very bad at connecting a slow drizzle of small causes to a sudden flood.</p>
+
+<p><strong>The system keeps working right up until it doesn’t.</strong> Most of the patterns in this book do their damage quietly. Trust decays without an alarm going off. Complexity grows without anyone deciding to add it. Prudence curdles into paralysis one cautious meeting at a time. Nothing breaks, so nothing looks broken. A system under accumulating internal stress and a system that is genuinely healthy look identical from the outside — they both <em>function</em> — right up until the moment they don’t. The absence of a visible problem is mistaken for the presence of health, which is exactly the mistake that lets the real problem grow undisturbed.</p>
+
+<p><strong>Everyone is too close, and too implicated.</strong> The people best placed to spot a pattern are usually the people standing inside it, shaped by the same incentives that produced it, often having made some of the small sensible decisions themselves. You cannot easily see the water you are swimming in, and you really cannot see it if pointing at the water would mean admitting your own hand helped pour it. So the patterns survive not because people are stupid — the people in these stories are usually clever, diligent, and well-meaning — but because the structure they are in makes the patterns nearly invisible from the inside and nearly irresistible to enact.</p>
+
+<p>Put those three together and you get the central illusion this book exists to dismantle: <strong>that failures are anomalies.</strong> They are not anomalies. They are the baseline. They are what systems do when left to run on their default settings. The genuine anomaly — the thing that actually requires explanation — is when something goes <em>right</em> and keeps going right, which is a rare enough event that it gets its own companion book.</p>
+
+<h2 id="how-to-read-what-follows">How to read what follows</h2>
+
+<p>The chapters after this one are not a story with a beginning and an end. They are a field guide. Each one isolates a single pattern — a specific, recurring way that organisations and the people in them defeat themselves — and takes it apart the same way every time, so you can learn to recognise it in the wild.</p>
+
+<p>Each chapter opens with a short story, because patterns are easier to feel than to define. Then it states the principle plainly. Then it does the part that matters most: it explains <em>why the pattern is inevitable</em> — why it isn’t a sign that someone was lazy or stupid, but the natural result of ordinary people responding sensibly to the situation they are in. It shows you how the pattern looks when it is actually happening, so you can spot the early signs rather than only the wreckage. It explains why it causes damage and why that damage is so often misread. And then it offers ways to counter it — not cures, because there are no cures for these, but the kind of structural countermeasures that tilt the odds. It closes by describing what good looks like, and with a question worth sitting with.</p>
+
+<p>A few honest warnings about how to use it.</p>
+
+<p><strong>There are no villains here.</strong> It is tempting, reading about failure, to go looking for the idiot or the bad actor who caused it. Resist that. The whole point of this book is that the failures happen <em>without</em> villains — that good, smart, careful people produce bad outcomes when the structure pushes them to. If your takeaway from any chapter is “I would never be that stupid,” you have read it backwards. The correct takeaway is “I can see exactly how I would have done the same.”</p>
+
+<p><strong>You will recognise yourself, and that’s the point.</strong> Some of these chapters will sting, because you will see a decision you are making right now, or a pattern your team is living inside, described in print. That recognition is the whole value of the book. The patterns only become manageable once you can name them, and you can only name them once you have felt the small jolt of seeing your own situation written down by someone who has never met you.</p>
+
+<p><strong>Naming a pattern is not the same as escaping it.</strong> Understanding why delay has a bias does not make you immune to delaying. These forces are not defeated by being understood; they are merely made visible. But visible is an enormous improvement on invisible. A pattern you can see is one you can argue with, design against, and catch a little earlier each time. That is the realistic prize on offer here — not perfection, but earlier sight.</p>
+
+<h2 id="why-of-course">Why “of course”</h2>
+
+<p>I kept the phrase in the title because it carries the exact double meaning the book is about.</p>
+
+<p>Said one way — flat, exhausted, after the fact — “of course it went wrong” is the most defeated sentence in working life. It means: these things always go wrong, nothing could have been done, what did you expect. It is the sound of learned helplessness dressed up as worldliness.</p>
+
+<p>Said the other way — alert, curious, slightly ahead of the event — the very same phrase becomes a kind of superpower. <em>Of course</em> it went wrong: given those incentives, that structure, that silence, that pressure, this outcome was always sitting there waiting. Once you can say it in this second voice, you are no longer surprised by failure, which means you are no longer paralysed by it, which means you can start to do something about it before it arrives rather than only explaining it afterwards.</p>
+
+<p>The failures in this book are predictable. That sounds like bad news, and in a way it is — it means they are coming, for you, in some form, whatever you do. But predictable is also the most hopeful word available, because the only things you can prepare for are the things you can predict. Random misfortune you can only endure. Patterned failure you can see coming, name, and meet.</p>
+
+<p>That is the entire bet of this book: that naming the patterns is the first and largest step toward not being quietly governed by them. Everything after this chapter is the patterns themselves.</p>
+
+<p>So — of course it went wrong. Let’s find out exactly why, so that next time you can say it the other way.</p>
+
+<h2 id="a-reflective-question">A Reflective Question</h2>
+
+<p>Think of the last failure you watched up close — a project, a relationship, a decision that aged badly. If you are honest, on which day did the information that would have predicted it first become available to someone — and what was it about the situation that made that information impossible to act on at the time?</p>
+
+    </div>
+
+    <hr class="chapter-divider">
+
+    <nav class="chapter-nav" aria-label="Chapter navigation">
+      <div class="chapter-nav-prev">
+        
+          <a href="/chapters/no-one-owns-the-whole/" class="chapter-nav-link">
+            <span class="chapter-nav-label">Previous</span>
+            <span class="chapter-nav-title">No One Owns the Whole</span>
+          </a>
+        
+      </div>
+      <div class="chapter-nav-up">
+        <a href="/chapters/" class="chapter-nav-all">All chapters</a>
+      </div>
+      <div class="chapter-nav-next">
+        
+          <a href="/chapters/ownership-without-authority-fails/" class="chapter-nav-link chapter-nav-link--next">
+            <span class="chapter-nav-label">Next</span>
+            <span class="chapter-nav-title">Ownership Without Authority Fails</span>
+          </a>
+        
+      </div>
+    </nav>
+
+    <div class="subscribe-box">
+      <h3 class="subscribe-heading">New chapters by email</h3>
+      <p class="subscribe-text">One chapter a week. No noise.</p>
+      <form class="subscribe-form" id="subscribeForm" action="https://subscribe.ofcourseiitwentwrong.workers.dev" method="POST">
+        <input type="hidden" name="source" value="ociw-chapter">
+        <div class="subscribe-row">
+          <input type="email" name="email" placeholder="your@email.com" required class="subscribe-input" autocomplete="email">
+          <button type="submit" class="subscribe-btn">Subscribe</button>
+        </div>
+        <p class="subscribe-status" id="subscribeStatus" hidden></p>
+      </form>
+    </div>
+
+  </div>
+</article>
+
+<script>
+const form = document.getElementById('subscribeForm');
+const status = document.getElementById('subscribeStatus');
+if (form && status) {
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = form.querySelector('button[type=submit]');
+    btn.disabled = true;
+    btn.textContent = 'Subscribing...';
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: form.email.value, source: form.source.value }),
+      });
+      const data = await res.json();
+      status.hidden = false;
+      if (res.ok) {
+        status.className = 'subscribe-status subscribe-status--ok';
+        status.textContent = 'Done. You will hear from us when the next chapter lands.';
+        form.reset();
+      } else {
+        status.className = 'subscribe-status subscribe-status--err';
+        status.textContent = data.error || 'Something went wrong. Try again.';
+        btn.disabled = false;
+        btn.textContent = 'Subscribe';
+      }
+    } catch {
+      status.hidden = false;
+      status.className = 'subscribe-status subscribe-status--err';
+      status.textContent = 'Could not connect. Check your connection and try again.';
+      btn.disabled = false;
+      btn.textContent = 'Subscribe';
+    }
+  });
+}
+</script>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-title">Of Course It Went Wrong</span>
+          <p class="footer-desc">Quiet, predictable forces that shape how people behave at work, at home, and in groups.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="/">Home</a>
+          <a href="/categories/">Categories</a>
+          <a href="/chapters/">All chapters</a>
+          <a href="/about/">About</a>
+        </nav>
+      </div>
+      <p class="footer-copy">&copy; 2026 Of Course It Went Wrong. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    if (toggle && nav) {
+      toggle.addEventListener('click', () => {
+        const open = nav.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', open);
+      });
+    }
+  </script>
+
+</body>
+</html>

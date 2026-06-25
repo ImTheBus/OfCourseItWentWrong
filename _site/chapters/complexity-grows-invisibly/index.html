@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Complexity Grows Invisibly — Of Course It Went Wrong</title>
+  <meta name="description" content="Systems become complicated without anyone choosing it.">
+
+  <!-- OG / social -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Complexity Grows Invisibly — Of Course It Went Wrong">
+  <meta property="og:description" content="Systems become complicated without anyone choosing it.">
+  <meta property="og:url" content="https://imthebus.github.io/chapters/complexity-grows-invisibly/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Complexity Grows Invisibly">
+  <meta name="twitter:description" content="Systems become complicated without anyone choosing it.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="site-brand" href="/">Of Course It Went Wrong</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/categories/">Categories</a>
+        <a href="/chapters/">All chapters</a>
+        <a href="/about/">About</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article class="chapter-page">
+  <div class="container container--reading">
+
+    <div class="chapter-series series-wrong">
+      
+        Of Course It Went Wrong
+      
+      <span class="chapter-series-sep">/</span>
+      Organisations and systems
+    </div>
+
+    <h1 class="chapter-title">Complexity Grows Invisibly</h1>
+
+    
+      <p class="chapter-summary">Systems become complicated without anyone choosing it.</p>
+    
+
+    <div class="chapter-meta">
+      <span class="meta-item">4 min read</span>
+      
+    </div>
+
+    <hr class="chapter-divider">
+
+    <div class="chapter-body">
+      <h1 id="complexity-grows-invisibly">Complexity Grows Invisibly</h1>
+
+<p><strong>Category:</strong> Organisations and systems
+<em>Systems become complicated without anyone choosing it.</em></p>
+
+<hr />
+
+<p>A team launches a new internal tool. On day one it is simple. One form, one list, one button that does the obvious thing. Everyone understands it because there is barely anything to understand.</p>
+
+<p>Then the requests start. Could it also handle the urgent cases differently. Could it flag the ones that need a manager’s sign-off. Could it skip that step for the warehouse, who have their own way of doing things. Could it remember last month’s settings. Each request is small. Each is reasonable. Each is granted.</p>
+
+<p>Nobody ever sat down and decided to build a complicated system. They decided, twenty separate times, to handle one more legitimate case. A year later, onboarding a new starter takes a fortnight, three people privately maintain workarounds nobody documented, and the only person who understands the whole thing is the one who built it and is now slightly afraid to touch it.</p>
+
+<p>From the inside, every step made sense. From the outside, the thing has become a maze. And no single decision was the wrong one.</p>
+
+<hr />
+
+<h2 id="the-principle">The Principle</h2>
+<p><strong>Complexity is not added in deliberate leaps. It accumulates one reasonable exception at a time, until no one can see the whole.</strong></p>
+
+<p>Each addition is justified on its own terms and against the system as it stood that day. Nobody is ever asked to approve the total. So the total grows unsupervised, because it is nobody’s job to see it.</p>
+
+<h2 id="why-it-is-inevitable">Why It Is Inevitable</h2>
+<p>Adding is easier than removing. Adding solves a real problem in front of you today; removing risks breaking something you cannot fully see. One of those feels responsible and the other feels reckless, so the ratchet only turns one way.</p>
+
+<p>The cost of each addition is also paid later and elsewhere — by the next person to maintain it, by the new starter who has to learn it, by the future change that now has more to collide with. The person granting the request rarely pays that cost, so it does not enter their decision.</p>
+
+<p>And the growth is invisible by construction. There is no moment, no meeting, no alarm that fires when a system crosses from simple to complex. It happens between the decisions, in the gaps, where nobody is looking.</p>
+
+<h2 id="how-it-shows-up">How It Shows Up</h2>
+<ul>
+  <li>“We can’t change that — too much depends on it now, and no one’s sure what.”</li>
+  <li>Onboarding takes far longer than the work itself seems to justify.</li>
+  <li>Undocumented workarounds that experienced people just “know.”</li>
+  <li>A single person who is the only one who understands a key part.</li>
+  <li>Every proposed change comes back with a longer list of side-effects than expected.</li>
+  <li>Edge cases now outnumber the main case in the code, the process, or the policy.</li>
+</ul>
+
+<h2 id="why-it-causes-damage">Why It Causes Damage</h2>
+<p>Complexity is a tax on everything that comes after it. It slows every future change, widens the surface where things can break, and concentrates understanding in a few heads — which is a fragility nobody chose. When that understanding leaves, the organisation is left operating machinery it can no longer explain.</p>
+
+<p>Worse, complexity hides its own cost. Because it arrived gradually and reasonably, there is no villain to point at and no obvious moment to undo. It simply becomes “how things are,” and the price is paid quietly, forever, by everyone downstream.</p>
+
+<h2 id="how-to-counter-it">How To Counter It</h2>
+<ul>
+  <li>Make removal a normal, expected activity — not a heroic act. Budget for it.</li>
+  <li>Require every addition to name what it makes harder, not only what it makes easier.</li>
+  <li>Track the second-order cost: who maintains this, who has to learn it, what does it now collide with.</li>
+  <li>Periodically ask of an exception: is this still earning its place, or just still here?</li>
+  <li>Protect a simple core. Push special cases to the edges rather than into the centre.</li>
+  <li>Count the exceptions. When the edge cases outnumber the main case, the main case has been lost.</li>
+</ul>
+
+<h2 id="what-good-looks-like">What Good Looks Like</h2>
+<p>Systems where someone owns the <em>whole</em>, not just the parts, and is empowered to say no to reasonable requests on behalf of the total. Where removing a step is celebrated as much as adding one. Where complexity is treated as a cost that has to be justified continuously, not a free consequence of being helpful.</p>
+
+<p>The system stays comprehensible — not because it never grew, but because growth was watched.</p>
+
+<h2 id="a-reflective-question">A Reflective Question</h2>
+<p>Look at a system you rely on every day. If you had to explain the whole of it to a new starter tomorrow, how much of it could you actually explain — and when did it stop being explainable?</p>
+
+    </div>
+
+    <hr class="chapter-divider">
+
+    <nav class="chapter-nav" aria-label="Chapter navigation">
+      <div class="chapter-nav-prev">
+        
+          <a href="/chapters/competence-hides-until-tested/" class="chapter-nav-link">
+            <span class="chapter-nav-label">Previous</span>
+            <span class="chapter-nav-title">Competence Hides Until Tested</span>
+          </a>
+        
+      </div>
+      <div class="chapter-nav-up">
+        <a href="/chapters/" class="chapter-nav-all">All chapters</a>
+      </div>
+      <div class="chapter-nav-next">
+        
+          <a href="/chapters/coordination-costs-more-than-the-work/" class="chapter-nav-link chapter-nav-link--next">
+            <span class="chapter-nav-label">Next</span>
+            <span class="chapter-nav-title">Coordination Costs More Than the Work</span>
+          </a>
+        
+      </div>
+    </nav>
+
+    <div class="subscribe-box">
+      <h3 class="subscribe-heading">New chapters by email</h3>
+      <p class="subscribe-text">One chapter a week. No noise.</p>
+      <form class="subscribe-form" id="subscribeForm" action="https://subscribe.ofcourseiitwentwrong.workers.dev" method="POST">
+        <input type="hidden" name="source" value="ociw-chapter">
+        <div class="subscribe-row">
+          <input type="email" name="email" placeholder="your@email.com" required class="subscribe-input" autocomplete="email">
+          <button type="submit" class="subscribe-btn">Subscribe</button>
+        </div>
+        <p class="subscribe-status" id="subscribeStatus" hidden></p>
+      </form>
+    </div>
+
+  </div>
+</article>
+
+<script>
+const form = document.getElementById('subscribeForm');
+const status = document.getElementById('subscribeStatus');
+if (form && status) {
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = form.querySelector('button[type=submit]');
+    btn.disabled = true;
+    btn.textContent = 'Subscribing...';
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: form.email.value, source: form.source.value }),
+      });
+      const data = await res.json();
+      status.hidden = false;
+      if (res.ok) {
+        status.className = 'subscribe-status subscribe-status--ok';
+        status.textContent = 'Done. You will hear from us when the next chapter lands.';
+        form.reset();
+      } else {
+        status.className = 'subscribe-status subscribe-status--err';
+        status.textContent = data.error || 'Something went wrong. Try again.';
+        btn.disabled = false;
+        btn.textContent = 'Subscribe';
+      }
+    } catch {
+      status.hidden = false;
+      status.className = 'subscribe-status subscribe-status--err';
+      status.textContent = 'Could not connect. Check your connection and try again.';
+      btn.disabled = false;
+      btn.textContent = 'Subscribe';
+    }
+  });
+}
+</script>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-title">Of Course It Went Wrong</span>
+          <p class="footer-desc">Quiet, predictable forces that shape how people behave at work, at home, and in groups.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="/">Home</a>
+          <a href="/categories/">Categories</a>
+          <a href="/chapters/">All chapters</a>
+          <a href="/about/">About</a>
+        </nav>
+      </div>
+      <p class="footer-copy">&copy; 2026 Of Course It Went Wrong. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    if (toggle && nav) {
+      toggle.addEventListener('click', () => {
+        const open = nav.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', open);
+      });
+    }
+  </script>
+
+</body>
+</html>

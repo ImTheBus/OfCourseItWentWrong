@@ -1,0 +1,86 @@
+---
+title: "The Cost Is Paid Somewhere"
+slug: the-cost-is-paid-somewhere
+book: of-course-it-went-wrong
+category: "Incentives, metrics, and consequences"
+order: 137
+summary: "Every gain creates a hidden expense."
+published: true
+---
+
+# The Cost Is Paid Somewhere
+
+**Category:** Incentives, metrics, and consequences
+*Every gain creates a hidden expense.*
+
+---
+
+A team is asked to cut the time it takes to close the monthly accounts. It used to take nine days. Now it takes four. The finance director presents the improvement at the board meeting, and it is a genuine improvement — the numbers are real, the calendar is real, nobody fabricated anything.
+
+What the slide does not show is how the four days were found. Two of the reconciliations that used to be done in full are now done on a sample. A control that used to require a second signature now requires one. A junior who used to check the supplier statements line by line now checks the ones above a threshold and trusts the rest. None of these were reckless decisions. Each was a sensible trade, made by someone trying to hit the new target, and each shaved a little time off the close.
+
+The five days did not disappear. They moved. They moved into the small population of errors that no longer get caught, into the supplier overpayment that surfaces eight months later, into the audit finding that takes a fortnight to investigate because nobody can quite reconstruct what was checked and what was assumed. The close got faster. The cost of the close did not fall. It relocated — out of the visible, measured, celebrated month-end and into a diffuse future that belongs to nobody in particular.
+
+By the time the overpayment is found, the person who claimed the gain has been promoted on the strength of it. The person who pays for it is whoever happens to be holding the supplier ledger when the discrepancy lands.
+
+This is not an accounting story. It is the shape of almost every quick win. The shipping cost comes down because the packaging got thinner, and the breakage cost goes up in a column nobody reads. The support queue clears faster because the hard tickets get closed with a workaround, and the same customers come back angrier next month. In each case something genuinely improved, and in each case the improvement was funded by quietly dropping a thing whose absence would only be felt later, somewhere else, by someone else. The saving was real. It was also borrowed.
+
+---
+
+## The Principle
+**An efficiency or a quick win rarely removes a cost. It relocates it — usually somewhere less visible, often later in time, and almost always onto someone other than the person who claimed the gain.**
+
+Work is, at some level, conserved. Energy does not vanish and neither does cost. The effort required to do a thing properly does not disappear because you stopped doing part of it; it converts into the risk, the rework, or the harm that the skipped part used to prevent. A genuine efficiency makes the same outcome cheaper. Most "efficiencies" are not that. Most of them keep the headline outcome and quietly drop one of the things that was holding it up, then book the saving and walk away before the thing it was holding up gives way.
+
+Sometimes moving a cost is exactly the right trade. The danger is not the trade itself — it is making the trade while counting only one side of it, so the gain looks total and the cost looks like luck. The gain is loud because it is measured. The cost is quiet because it is not. That asymmetry is the whole problem.
+
+## Why It Is Inevitable
+It is inevitable, first, because of where the measurement sits. The gain is immediate, visible, and easy to attribute: you can see the close time fall this quarter, and you can name the person who drove it. The cost is deferred, diffuse, and owned by no one. We measure the thing we set out to improve and put a name and a date against it. We do not, as a rule, measure the things that improvement leaned on. There is no dashboard for "errors that would previously have been caught." There is no owner for "the goodwill we just spent." So when you tighten the measured thing, the slack moves into the unmeasured things — slack, resilience, institutional memory, the margin for error — and from inside the system it looks exactly like getting something for nothing.
+
+It is also inevitable because the time horizons are mismatched. The gain shows up this quarter. The cost shows up two or three quarters later, by which point it has been laundered through enough intervening events that nobody connects it to the decision that caused it. The overpayment is "a supplier issue." The burnout is "a retention problem." The outage is "bad luck." Cause and effect have been separated by enough time that the causal line is no longer drawn, and so the original saving is never debited.
+
+And it is inevitable because the incentives are personal. The person who finds the efficiency is rewarded now, in full, and visibly. The person who pays the cost absorbs it later, partially, and anonymously. No individual is behaving badly. Each is responding rationally to where the credit and the blame actually land — and because we learn from what gets connected, the lesson that lands is simply "that cut was free." The system quietly teaches everyone that the smart move is to claim a gain whose cost you will not be around to pay.
+
+There is a final reason, and it is the most human one: removing a cost is hard and relocating it is easy. To genuinely make something cheaper you have to understand it deeply enough to find the waste in it without touching the part that matters — and that takes time, skill, and the willingness to be slow before you are fast. To relocate a cost you only have to stop doing something and hope. Under pressure, faced with a target and a date, almost everyone reaches for the easy version, tells themselves it is the hard one, and books the difference as cleverness. The relocation is not usually a lie told to others. It is a thing the person doing it half-believes, because the cost they pushed away is now genuinely out of their sight.
+
+---
+
+The same shape plays out across a boundary, not just across time. A warehouse manager is measured on one thing: how fast goods leave the loading dock. She is good at her job, so she gets faster. She batches orders to cut handling time, ships the easy lines first, and pushes anything awkward — part-picks, fragile items, custom packing — to the back of the queue. Her numbers are the best in the region. She is held up as an example.
+
+Two doors down, the returns team is drowning. The awkward orders that kept getting deferred now arrive late, in a rush, packed badly to make up time. Customers complain. Returns climb. The returns team has the worst numbers in the region, and nobody can work out why, because on paper the warehouse is performing brilliantly. Each team is doing exactly what it was asked to do. The number that actually matters — whether the customer got the right thing, intact, on time — belongs to no one, so no one defends it. The warehouse manager's improvement was real. It just wasn't free. It was paid for, in full, by a team she never sees, against a number nobody owns.
+
+---
+
+## How It Shows Up
+- A process gets faster or cheaper and nobody can quite say what was given up to achieve it.
+- A saving in one budget line is followed, some months later, by an unexplained rise in another.
+- "We streamlined that" turns out to mean a check, a buffer, or a redundancy was removed — true on every normal day, costly on the abnormal one.
+- Efficiency drives that strip out the spare capacity nobody could point to a use for — until the day it was needed.
+- The person who delivered the efficiency has moved on by the time its consequences arrive.
+- The cost lands on customers, on a downstream team, on next year, or on the people too junior to push back — usually at a hand-off, where the work crosses a boundary and no one is measured.
+- Failures later explained as "bad luck" or "the perfect storm" — language that severs the outcome from the choices that set it up.
+
+## Why It Causes Damage
+The damage is not that costs get moved — sometimes moving a cost is exactly the right call, and a genuine efficiency really does exist. The damage is that the move is *unaccounted*. When a cost is relocated without being recorded, the organisation believes it is richer than it is. It has, on paper, removed an expense. In reality it has taken out a loan against a part of itself it is not looking at, and it will be surprised, every time, when the repayment falls due.
+
+This is corrosive in a way that a straightforward loss is not. A loss you can see, you can manage. A hidden cost you cannot manage, because you do not know you are carrying it. It compounds in the dark. The system gets worse while every component reports success, which is the most dangerous failure mode there is — because there is no alarm. By the time the hidden cost surfaces it has grown, and it surfaces as a crisis with no obvious author — an outage, a complaint spike, a key person resigning, a regulator's letter — that the organisation then treats as a fresh problem rather than as the bill for an old decision. So it pays twice: once for the original cost it relocated, and again for the panic of meeting it unprepared.
+
+There is a fairness cost too, and it is the one that breaks trust. The people who end up paying are disproportionately the ones least able to refuse the bill — the downstream team with no say in the decision, the customer with no visibility into the trade, the junior who inherits the workaround, the future colleague who walks into the consequences of a choice they never made. The gain flows upward and the cost flows down and out. Over time the people on the receiving end work out exactly what is happening, even if they cannot prove it, and they stop extending the benefit of the doubt. They start building their own quiet buffers against the savings they know are coming. The organisation has now paid for the same efficiency a third time, in mistrust, and that one does not show up on any slide at all.
+
+And it corrupts learning, which is the deepest harm of all. Because the cost surfaces far from the gain in both time and space, the organisation cannot connect the two. It books the saving as a win and the later failure as misfortune, and so it draws exactly the wrong conclusion: that the cut was free and the disaster was random. That conclusion is not just wrong, it is self-reinforcing. It encourages more of the same cutting, which buys more invisible fragility, which produces more "bad luck," each instance further confirming the story that the cuts were fine and the world is just unpredictable. A system that cannot see where its costs went will keep moving costs to exactly the places it cannot see, getting steadily more fragile while its numbers get steadily more impressive — until the bill it has been quietly running up is presented all at once.
+
+## How To Counter It
+- For any proposed gain, ask the second question out loud: *if this is cheaper, what is it leaning on that we just stopped paying for?* A saving with no identifiable source is the one to distrust.
+- Name the thing you are spending. Slack, resilience, goodwill, redundancy, and review are not waste — they are insurance you are paying premiums on. Cancelling insurance looks like a saving right up until the claim.
+- Match the horizons. Do not book a gain whose cost arrives later until you have at least estimated that later cost. A net figure is honest; a gross one is marketing.
+- Give the downstream a voice before the decision, not after. The team that will pay the relocated cost usually knows exactly where it is going to land, if anyone asks them in time — and the hand-offs between teams, where no one is measured, are where the cost most often hides.
+- Hold the gain and its consequence to the same person where you can. Much of this disappears if the one who claims the efficiency is still accountable when its bill arrives.
+- Decide deliberately which costs you *are* willing to move and accept — that is legitimate strategy. The rule is not "never trade." It is "never trade with only one side of the ledger visible." Be especially suspicious of free wins near a deadline, a target, or a promotion, because that is precisely where the incentive to relocate a cost rather than remove it is strongest.
+
+## What Good Looks Like
+Good looks like an organisation that treats efficiency as a claim to be tested rather than a prize to be awarded. Where a saving is presented alongside an honest account of what was traded to get it, and a net figure rather than a gross one. Where the people downstream of a change are consulted before it ships, because they are the ones who can see the cost moving toward them. Where slack, resilience, and review are understood as things you are paying *for*, not waste you forgot to cut. Where a genuine efficiency — same outcome, less work, no hidden bill — is celebrated loudly, precisely because it is rare and real, and a false one is caught early because someone always asks where the cost went.
+
+The wins still happen. They are just wins the whole system can afford, paid for in the open rather than borrowed from a part of itself it was not watching — because the organisation always knows where its costs went.
+
+## A Reflective Question
+Look at the last efficiency you were proud of. If it really was cheaper, what was it leaning on that you stopped paying for — and who is holding that cost now?
